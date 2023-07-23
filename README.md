@@ -1,6 +1,6 @@
 # Welcome to Matías Pretz's Personal Page Repository
 
-![Banner Image](./images/pic03.jpg)
+![Banner Image](./images/pic03.png)
 
 ## Introduction
 
@@ -14,7 +14,7 @@ I'm Matías, a mid-30s self-learner passionate about technology and programming.
 
 ### Project 1 - [matipretz.github.io]
 
-![Portada](./images/page.jpg)
+![Portada](./images/page.png)
 
 _Personal profolio page_
 
