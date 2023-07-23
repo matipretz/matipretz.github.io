@@ -25,21 +25,20 @@ _Personal profolio page_
 
 _Link: https://matipretz.github.io_
 
-### Project 2 - [Project Name]
+### Project 2 - [SecureKey]
 
 ![Project Image](./images/project2.jpg)
 
 _Description: A brief description of the project, its purpose, and what technologies were used._
 
-_Link: [Project URL or Live Demo]_
+_Link: [https://github.com/matipretz/SecureKey]_
 
 ## Contact Me
 
 If you'd like to connect, discuss potential collaborations, or simply say hello, feel free to reach out to me through the following channels:
 
-- Email: [Your Email Address]
-- LinkedIn: [Your LinkedIn Profile URL]
-- Twitter: [@YourTwitterHandle]
+- Email: [matias.pretz@outlook.com]
+- LinkedIn: [www.linkedin.com/in/matiaspretz]
 
 ## License
 
