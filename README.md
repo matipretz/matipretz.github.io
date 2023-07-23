@@ -22,7 +22,7 @@ _Link: https://matipretz.github.io_
 
 ### Project 2 - [SecureKey]
 
-![Project Image](./images/pic02.jpg)
+![Project Image](./images/pic02.png)
 
 _SecureKey is a password management application that allows you to securely store and protect your passwords._
 
