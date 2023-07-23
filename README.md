@@ -5,7 +5,7 @@
 
 # Welcome to Matías Pretz's Personal Page Repository
 
-![Banner Image](./images/banner.jpg)
+![Banner Image](./images/pic03.jpg)
 
 ## Introduction
 
@@ -27,9 +27,9 @@ _Link: https://matipretz.github.io_
 
 ### Project 2 - [SecureKey]
 
-![Project Image](./images/project2.jpg)
+![Project Image](./images/pic02.jpg)
 
-_Description: A brief description of the project, its purpose, and what technologies were used._
+_SecureKey is a password management application that allows you to securely store and protect your passwords._
 
 _Link: [https://github.com/matipretz/SecureKey]_
 
