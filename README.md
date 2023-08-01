@@ -18,22 +18,22 @@ I'm Matías, a mid-30s self-learner passionate about technology and programming.
 
 _Personal profolio page_
 
-_Link: https://matipretz.github.io_
+_[Link](https://matipretz.github.io)_
 
 ### Project 2 - [SecureKey]
 
 ![Project Image](./images/pic02.png)
 
-_SecureKey is a password management application that allows you to securely store and protect your passwords._
+_SecureKey is a password management application that allows you to store your passwords._
 
-_Link: [github.com/matipretz/SecureKey]_
+_[Link](github.com/matipretz/SecureKey)_
 
 ## Contact Me
 
 If you'd like to connect, discuss potential collaborations, or simply say hello, feel free to reach out to me through the following channels:
 
-- DM: [matipretz.github.io/#contact]
-- LinkedIn: [www.linkedin.com/in/matiaspretz]
+- [Contact form: matipretz.github.io](https://matipretz.github.io/#contact)
+- [LinkedIn](www.linkedin.com/in/matiaspretz)
 
 ## License
 
