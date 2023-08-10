@@ -4,8 +4,10 @@
 <head>
 	<title>Matias Pretz</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
+
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
@@ -17,7 +19,7 @@
 				<li><a href="#">EN</a></li>
 			</ul>
 		</nav>
-		<div class="inner">
+		<div>
 			<h1>Matias Pretz</h1>
 			<h3>A personal site for Matias Pretz's <a href="https://github.com/matipretz">GitHub repository</a></h3>
 		</div>
@@ -31,11 +33,11 @@
 			</ul>
 		</nav>
 	</header>
-	<div id="main">
+	<div>
 		<!-- Intro -->
 		<article id="intro">
-			<h2 class="major">Intro</h2>
-			<span class="image main"><img src="images/pic01.png" alt="" /></span>
+			<h2>Intro</h2>
+			<span class="responsive"><img src="images/pic01.png" alt="" /></span>
 			<h3>Welcome to My Software Development Project Portfolio!</h3>
 			<p>I am thrilled to share with you a collection of my work and achievements in the world of software
 				development. This portfolio serves as a showcase of my skills, creativity, and dedication to
@@ -59,9 +61,9 @@
 
 		<!-- Work -->
 		<article id="work">
-			<h2 class="major">Work</h2>
+			<h2>Work</h2>
 			<h3><a href="https://github.com/matipretz/SecureKey">SecureKey:</a> Simplify and Secure Your Passwords.</h3>
-			<span class="image main"><img src="images/pic02.png" alt="" /></span>
+			<span class="responsive"><img src="images/pic02.png" alt="" /></span>
 			<p>SecureKey is a powerful password manager designed to simplify your digital life. With SecureKey, you can
 				store, manage, and retrieve
 				all your passwords in one place.</p>
@@ -72,8 +74,8 @@
 
 		<!-- About -->
 		<article id="about">
-			<h2 class="major">About</h2>
-			<span class="image main"><img src="images/pic03.png" alt="" /></span>
+			<h2>About</h2>
+			<span class="responsive"><img src="images/pic03.png" alt="" /></span>
 			<p>Hello, I'm Matías, a mid-30s self-learner with a strong interest in technology, programming, and all
 				things related to software development. I consider myself a naturally curious and detail-oriented
 				individual, always seeking to expand my horizons.</p>
@@ -116,27 +118,17 @@
 
 		<!-- Contact -->
 		<article id="contact">
-			<h2 class="major">Contact</h2>
+			<h2>Contact</h2>
 			<form method="post" action="https://forms.un-static.com/forms/7b2f2a4d1f0f8dbd8a0edde72d19220aedfd0456">
-				<div class="fields">
-					<div class="field half">
-						<label for="name">Name</label>
-						<input type="text" name="name" id="name" />
-					</div>
-					<div class="field half">
-						<label for="email">Email</label>
-						<input type="text" name="email" id="email" />
-					</div>
-					<div class="field">
-						<label for="message">Message</label>
-						<textarea name="message" id="message" rows="4"></textarea>
-					</div>
-				</div>
-				<ul class="actions">
-					<li></li>
-					<div class="g-recaptcha" data-sitekey="6LdCMDYnAAAAAHVuKb2uEzngt-z2oqtRBws3tL38"></div>
-					</li>
-					<li><input type="submit" value="Send Message" class="primary" /></li>
+				<ul>
+				<li><label for="name">Name</label>
+				<input type="text" name="name" id="name"/></li>
+				<li><label for="email">Email</label>
+				<input type="text" name="email" id="email"/></li>
+				<li><label for="message">Message</label></li>
+				<li><textarea name="message" id="message" rows="4"></textarea></li>
+				<li><div class="g-recaptcha" data-sitekey="6LdCMDYnAAAAAHVuKb2uEzngt-z2oqtRBws3tL38"></div></li>
+				<li><input type="submit" value="Send Message" class="primary" /></li>
 				</ul>
 			</form>
 		</article>
