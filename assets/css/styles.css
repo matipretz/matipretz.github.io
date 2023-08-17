@@ -84,6 +84,7 @@ ul {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  height: 60px;
 }
 
 .topnav a:hover {
