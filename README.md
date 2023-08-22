@@ -6,21 +6,11 @@ I'm Matías, a mid-30s self-learner passionate about technology and programming.
 
 ## Projects
 
-### Project 1 - [matipretz.ar]
+### - [SecureKey](github.com/matipretz/SecureKey)
 
-![Portada](./images/page.png)
-
-_Personal profolio page_
-
-- [Link](https://matipretz.ar)
-
-### Project 2 - [SecureKey]
-
-![Project Image](./images/pic02.png)
+![Project Image](./images/img_sk.png)
 
 _SecureKey is a password management application that allows you to store your passwords._
-
-- [Link](http://github.com/matipretz/SecureKey)
 
 ## Contact Me
 
