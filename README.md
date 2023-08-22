@@ -1,3 +1,5 @@
+[matipretz.ar](https://matipretz.ar/) · [Discord](https://discordapp.com/users/mattanga) · [github.com/matipretz](https://github.com/matipretz)
+
 # Welcome to Matías Pretz's Personal Page 
 
 ## About Me
