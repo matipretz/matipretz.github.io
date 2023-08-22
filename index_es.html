@@ -188,34 +188,36 @@
 
       <!-- Contact -->
       <article id="contact">
-        <header class="encabezado"><h2>Contacto</h2></header>
-        <form
-          method="post"
-          action="https://forms.un-static.com/forms/7b2f2a4d1f0f8dbd8a0edde72d19220aedfd0456"
-        >
-          <ul>
-            <li>
-              <label for="name">Nombre</label>
-              <input type="text" name="name" id="name" />
-            </li>
-            <li>
-              <label for="email">Correo Electrónico</label>
-              <input type="text" name="email" id="email" />
-            </li>
-            <li><label for="message">Mensaje</label></li>
-            <li><textarea name="message" id="message" rows="4"></textarea></li>
-            <li>
-              <div
-                class="g-recaptcha"
-                data-sitekey="6LdCMDYnAAAAAHVuKb2uEzngt-z2oqtRBws3tL38"
-              ></div>
-            </li>
-            <li>
-              <input type="submit" value="Enviar Mensaje" class="primary" />
-            </li>
-          </ul>
-        </form>
-      </article>
+        <fieldset>
+          <legend><header class="encabezado"><h2>Contacto</h2></header></legend>
+          <form
+            method="post"
+            action="https://forms.un-static.com/forms/7b2f2a4d1f0f8dbd8a0edde72d19220aedfd0456"
+          >
+            <ul>
+              <li>
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" />
+              </li>
+              <li>
+                <label for="email">Correo</label>
+                <input type="text" name="email" id="email" />
+              </li>
+              <li><label for="message">Mensage</label></li>
+              <li><textarea name="message" id="message" rows="4"></textarea></li>
+              <li>
+                <div
+                  class="g-recaptcha"
+                  data-sitekey="6LdCMDYnAAAAAHVuKb2uEzngt-z2oqtRBws3tL38"
+                ></div>
+              </li>
+              <li>
+                <input type="submit" value="Enviar" class="primary" />
+              </li>
+            </ul>
+          </form>
+        </fieldset>
+        </article>
     </main>
     <!-- Footer -->
     <footer>
