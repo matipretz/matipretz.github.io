@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-/* Fondo */
+
 body {
   background-color: rgb(0, 0, 0);
   background-image: url(../images/bg2.webp);
@@ -12,7 +12,7 @@ body {
   height: 100%;
   margin: 0;
 }
-/* Elementos basicos */
+
 h1,
 h2,
 h3 {
@@ -38,26 +38,9 @@ ul {
   color: beige;
 }
 
-/* Imagenes */
-.image {
-  width: 50%;
-  max-width: 100%;
-  height: auto;
-  max-height: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 25px;
-}
-#profile {
-  width: 400px;
-  height: 400px;
-}
-/* Barra de navegacion */
-
 nav {
   overflow: hidden;
-  background-color: hwb(0 20% 80% / 0.70);
+  background-color: hwb(0 20% 80% / 1);
   top: 0;
   width: 100%;
   position: sticky;
@@ -73,7 +56,9 @@ a.navlink {
 }
 
 a.navlink:hover {
-  background-color: rgba(0, 0, 139, 0.5);
+  background-color: beige;
+  color: hwb(0 20% 80% / 1);
+  transition-duration: 0.4s;
 }
 
 a.langicon {
@@ -83,14 +68,33 @@ a.langicon {
   padding-right: 1em;
 }
 
-.langicon img {
+img.langimg {
   width: 32px;
   height: 32px;
 }
 
-/* Portada Hero */
-header h1 {
-  font-size: 80px;
+aside {
+  width: auto;
+  position: fixed;
+  z-index: 1;
+  top: 50vh;
+  left: 0px;
+  overflow-x: hidden;
+}
+
+a.sideicon {
+  color: hwb(0 20% 80% / 1);
+  display: flex;
+  justify-content: center;
+  padding: 0.2em;
+  cursor: pointer;
+
+}
+
+a.sideicon:hover {
+  color: beige;
+  transition-duration: 0.4s;
+
 }
 
 header {
@@ -98,46 +102,99 @@ header {
   height: 100vh;
   text-align: center;
 }
+
 header h1 {
   padding: 1em;
+  font-size: 80px
 }
+
 header h2 {
   padding: 1em;
 }
+
+a.gotop {
+  position: fixed;
+  bottom: 0.2em;
+  right: 0.2em;
+  cursor: pointer;
+  color: hwb(0 20% 80% / 1);
+}
+
+a.gotop:hover {
+  color: beige;
+  transition-duration: 0.4s;
+
+}
+
 article {
   margin: auto;
   text-align: center;
-  width: 70%;
+  width: 80%;
   padding-top: 60px;
 }
+
 #contact {
   height: 95vh;
 }
-.social {
-  position: relative;
-  color: beige;
-  float: left;
-  bottom: 1em;
-  padding-left: 1em;
-}
-.boton {
-  position: fixed;
-  bottom: 1em;
-  right: 1em;
-  cursor: pointer;
-  color: beige;
-}
-fieldset {
+
+
+form{
+  display: block;
+  border-color: hwb(0 20% 80% / 1);
   position: relative;
   border-radius: 10px;
-  border-color: darkblue;
   border-width: 3px;
   border-style: double;
-  background-color: rgba(0, 0, 139, 0.25);
 }
-form input {
-  width: 100%;
+
+.forminput {
+  display: block;
+  margin: 1em;
+  width: 80%;
 }
-form textarea {
-  width: 100%;
+
+input.forminput {
+  color: beige;
+  background-color: hwb(0 20% 80% / 0.4);
+  font-family: 'Share Tech Mono';
+  padding: 3%;
+}
+
+textarea.forminput {
+  padding: 3%;
+  color: beige;
+  background-color: hwb(0 20% 80% / 0.4);
+  font-family: 'Share Tech Mono';
+}
+
+button.formbutton {
+  color: beige;
+  background-color: hwb(0 20% 80% / 0.4);
+  display: inline-block;
+  text-align: center;
+  font-family: 'Share Tech Mono';
+  width: 49%;
+  cursor: pointer;
+}
+
+button.formbutton:hover {
+  color: hwb(0 20% 80% / 1);
+  background-color: beige;
+  transition-duration: 0.4s;
+}
+
+.image {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+
+#profile {
+  width: 400px;
+  height: 400px;
 }
