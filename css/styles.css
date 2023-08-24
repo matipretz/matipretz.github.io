@@ -133,54 +133,47 @@ article {
   padding-top: 60px;
 }
 
-#contact {
-  height: 95vh;
-}
-
-
-form{
-  display: block;
-  border-color: hwb(0 20% 80% / 1);
-  position: relative;
-  border-radius: 10px;
-  border-width: 3px;
-  border-style: double;
-}
-
-.forminput {
-  display: block;
-  margin: 1em;
-  width: 80%;
-}
-
-input.forminput {
-  color: beige;
+input.forminput,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
   background-color: hwb(0 20% 80% / 0.4);
-  font-family: 'Share Tech Mono';
-  padding: 3%;
-}
-
-textarea.forminput {
-  padding: 3%;
+  font-family: Share Tech Mono;
   color: beige;
-  background-color: hwb(0 20% 80% / 0.4);
-  font-family: 'Share Tech Mono';
 }
 
 button.formbutton {
+  background-color: hwb(0 20% 80% / 1);
   color: beige;
-  background-color: hwb(0 20% 80% / 0.4);
-  display: inline-block;
-  text-align: center;
-  font-family: 'Share Tech Mono';
-  width: 49%;
+  font-family: Share Tech Mono;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
+  width: 45%;
+  margin: 1em;
 }
 
 button.formbutton:hover {
-  color: hwb(0 20% 80% / 1);
   background-color: beige;
-  transition-duration: 0.4s;
+  color: hwb(0 20% 80% / 1);
+}
+
+.contact {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  padding-top: 60px;
+  height: 95vh;
+
+}
+
+.g-recaptcha {
+  display: block;
+  margin: 1em;
 }
 
 .image {
