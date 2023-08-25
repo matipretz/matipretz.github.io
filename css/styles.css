@@ -77,16 +77,14 @@ img.langimg {
   height: 32px;
 }
 
-aside,
-div.gotopcontainer {
+aside {
   width: auto;
   position: fixed;
   overflow-x: hidden;
   top: 50vh;
 }
 
-a.sideicon,
-a.gotop {
+a.sideicon {
   display: flex;
   color: hwb(0 20% 80% / 1);
   background-color: rgba(245, 245, 220, 0.1);
@@ -95,20 +93,12 @@ a.gotop {
   padding: 0.3em;
   width: 3rem;
   height: 3rem;
+  left: 0px;
 }
 
-a.sideicon:hover,
-a.gotop:hover {
+a.sideicon:hover {
   color: beige;
   transition-duration: 0.4s;
-}
-
-div.gotopcontainer {
-  right: 0px;
-}
-
-a.sideicon {
-  left: 0px;
 }
 
 header {
@@ -125,17 +115,40 @@ header h1 {
 header h2 {
   padding: 1em;
 }
-
+main{
+  display:flexbox ;
+}
 article {
-  display: block;
+  display:flexbox ;
   justify-content: center;
   align-items: center;
-
   margin: auto;
   text-align: center;
   width: 90%;
   padding-top: 60px;
   height: 100vh;
+}
+
+article.row {
+  border: 1px solid #000000;
+  overflow: hidden;
+  width: 100%;
+}
+
+div.left {
+  width: 45%;
+  float: left;
+}
+
+div.right {
+  width: 45%;
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
 
 input.forminput,
@@ -173,6 +186,8 @@ section {
   width: 90%;
   padding-top: 60px;
   height: 100vh;
+  margin-bottom: 1em;
+  display: flexbox;
 }
 
 .g-recaptcha {
@@ -190,28 +205,33 @@ section {
   border-radius: 25px;
 }
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
+
+
+footer {
+  overflow: hidden;
+  background-color: hwb(0 20% 80% / 1);
+  bottom: 0;
+  width: 100%;
+  position: sticky;
 }
 
-.left {
-  width: 25%;
+footer p{
+  font-size: small;
+  display: inline-block;
+  padding-left: 1em;
 }
 
-.right {
-  width: 75%;
+a.gotop {
+  padding: 1em;
+  text-decoration: none;
+  font-size: 2vh;
+  float: right;
+  margin: auto;
+
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+a.gotop:hover {
+  background-color: beige;
+  color: hwb(0 20% 80% / 1);
+  transition-duration: 0.4s;
 }
