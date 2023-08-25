@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Share Tech Mono'>
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Share%20Tech%20Mono'>
   <script src="https://kit.fontawesome.com/6793cb11db.js" crossorigin="anonymous"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
@@ -38,7 +38,7 @@
   <main>
     <article id="intro" class="row">
       <div class="column left">
-        <img class="image" src="images/pic01.png" alt="">
+        <img class="image" src="images/pic01.png" alt="A desktop with a computer, in a nightly enviroment. AI generated.">
         <h3>Welcome to My Software Development Project Portfolio!</h3>
       </div>
       <div class="column right">
@@ -87,7 +87,7 @@
           <a href="https://github.com/matipretz/SecureKey">SecureKey:</a>
           Simplify and Secure Your Passwords.
         </h3>
-        <img class="image" src="images/img_sk.png" alt="">
+        <img class="image" src="images/img_sk.png" alt="SecureKey program main menu.">
       </div>
       <div class="column right">
         <p>
@@ -110,8 +110,9 @@
     </article>
 
     <article id="about" class="row">
+      <h2>About me</h2>
       <div class="column left">
-        <img class="image" src="images/pic03.png" alt="">
+        <img class="image" src="images/pic03.png" alt="Matías">
       </div>
       <div class="column right">
         <p>
@@ -176,12 +177,14 @@
     </article>
 
     <section class="contact" id="contact">
+      <h2>Send me a message</h2>
+
       <form class="contactform" method="post"
         action="https://forms.un-static.com/forms/7b2f2a4d1f0f8dbd8a0edde72d19220aedfd0456">
-        <input class="forminput" type="text" name="name" id="name" placeholder="Name" autocomplete="off">
-        <input class="forminput" type="text" name="email" id="email" placeholder="Email" autocomplete="off">
+        <input class="forminput" type="text" name="name" id="name" placeholder="Name" autocomplete="off" required>
+        <input class="forminput" type="email" name="email" id="email" placeholder="Email" autocomplete="off" required>
         <textarea class="forminput" name="message" id="message" rows="10" placeholder="Message"
-          autocomplete="off"></textarea>
+          autocomplete="off" required></textarea>
         <div class="g-recaptcha" data-theme="dark" data-sitekey="6LdCMDYnAAAAAHVuKb2uEzngt-z2oqtRBws3tL38"></div>
         <button class="formbutton" type="reset">Clear</button>
         <button class="formbutton" type="submit">Send</button>
