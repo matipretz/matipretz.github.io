@@ -10,7 +10,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
   margin: 0px;
-  margin-bottom:3rem;
+  margin-bottom: 3rem;
   color: #151515;
 }
 
@@ -31,7 +31,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  font-size: large;
+  font-size: 1rem;
   font-family: Share Tech Mono;
   color: #151515;
 }
@@ -79,16 +79,19 @@ header.hero {
   margin-top: 50px;
   font-size: xxx-large;
   text-align: center;
-  max-width: 100%;
+  max-width: 80%;
+  margin-left: 10%;
+
   height: auto;
   font-family: Federant;
   margin-bottom: 2%;
-
 }
 
 header.hero p {
   font-family: Share Tech Mono;
   font-size: large;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .card {
@@ -172,7 +175,7 @@ button[type=reset]:hover {
   border: #151515 solid;
 }
 
-footer{
+footer {
   height: 1rem;
   background-color: white;
   bottom: 0px;
@@ -181,28 +184,24 @@ footer{
   margin-bottom: 0px;
   padding: 1rem 0;
   text-align: center;
-
 }
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    text-align: center;
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
   }
 
-  nav a {
-    float: none;
-    display: block;
+  nav {
+    background-color: lightblue;
   }
 
   ul {
     flex-direction: column;
+    text-align: center;
   }
-  aside{
-    width: auto;
-    position: fixed;
-    overflow-x: hidden;
-    flex-flow: row;
-    bottom: 0vh;
 
+  header.hero {
+    padding-top: 1rem;
+    font-size: 2rem;
   }
 }
