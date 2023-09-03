@@ -1,23 +1,13 @@
-/* arreglar footer
-responsivar fuentes */
-
 * {
   box-sizing: border-box;
 }
 
 :root {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;  
 }
 
 body {
-  background-color: rgb(0, 0, 0);
   background-image: linear-gradient(to top, #30cfd0 10%, #330867 90%);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  margin: 0;
 }
 
 h1,
@@ -213,11 +203,11 @@ section {
 
 
 footer {
-  overflow: hidden;
-  background-color: hwb(0 20% 80% / 1);
-  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  background: teal;
+  margin-top: 20px;
   width: 100%;
-  position: sticky;
 }
 
 footer p {
