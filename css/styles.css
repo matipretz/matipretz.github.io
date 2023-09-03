@@ -32,13 +32,12 @@ nav a {
 }
 
 nav a:hover {
-  border-bottom: 1px solid #343434;
+  border-bottom: 1px solid #151515;
   transition-duration: 0.4s;
 }
 
 nav a.active {
-  border-bottom: 1px solid #343434;
-  color: #343434;
+  border-bottom: 1px solid #151515;
 }
 
 aside {
