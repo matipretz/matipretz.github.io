@@ -73,20 +73,6 @@ header p {
   font-family: gruppo;
 }
 
-.carrusel {
-  width: 75%;
-  overflow: hidden;
-  margin-left: 12.5%;
-}
-
-.slide {
-  display: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 .active {
   display: block;
