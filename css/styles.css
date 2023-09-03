@@ -170,3 +170,35 @@ button[type=reset]:hover {
   border-radius: 5px;
   border: #151515 solid;
 }
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #151515;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav a {
+    float: none;
+    display: block;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+  aside{
+    width: auto;
+    position: fixed;
+    overflow-x: hidden;
+    flex-flow: row;
+    bottom: 0vh;
+
+  }
+}

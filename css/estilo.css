@@ -217,7 +217,7 @@ button[type=reset] {
 button[type=submit]:hover,
 button[type=reset]:hover {
   background-color: #343434;
-  color:#7ed957 ;
+  color: #7ed957;
   transform: scale(1.1);
   transition-duration: 0.4s;
 }
@@ -247,50 +247,7 @@ button[type=reset]:hover {
     display: block;
   }
 
-  .centro {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-    display: block;
-  }
-
   ul {
     flex-direction: column;
-  }
-
-  .banner {
-    display: none;
-  }
-
-  .card {
-    width: 80%;
-  }
-
-  section h1 {
-    font-size: 28px;
-  }
-
-  section h2 {
-    font-size: 20px;
-  }
-
-  section h3 {
-    font-size: 16px;
-  }
-
-  section p {
-    font-size: 14px;
-    margin-bottom: 20px;
-  }
-
-
-  footer p {
-    font-size: 14px;
-  }
-
-  footer i {
-    font-size: 24px;
-    margin: 0 5px;
   }
 }
