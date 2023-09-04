@@ -174,6 +174,7 @@ button[type=reset]:hover {
   flex-wrap: wrap;
   width: 80%;
   margin-left: 10%;
+  margin-top: 1rem;
   padding: 1rem;
   border-radius: 5px;
   border: #151515 solid;
@@ -183,12 +184,15 @@ footer {
   display: flex;
   height: 1rem;
   background-color: white;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
-  text-align: center;
+  align-content: center;
+  justify-content: center;
   padding-top: 1rem;
+  padding-left: 1rem;
+}
+footer p{
+  font-size: small;
+  font-family: Share Tech Mono;
+
 }
 
 @media only screen and (max-width: 600px) {
