@@ -180,6 +180,16 @@ button[type=reset]:hover {
   border: #151515 solid;
 }
 
+.container h2 {
+  font-size: larger;
+  font-family: Federant;
+}
+
+.container p {
+  font-size: medium;
+  font-family: Share Tech Mono;
+}
+
 footer {
   display: flex;
   height: 1rem;
@@ -189,7 +199,8 @@ footer {
   padding-top: 1rem;
   padding-left: 1rem;
 }
-footer p{
+
+footer p {
   font-size: small;
   font-family: Share Tech Mono;
 
