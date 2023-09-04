@@ -8,10 +8,10 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #151515;
+  background-color: white;
   margin: 0px;
   margin-bottom: 3rem;
-  color: wheat;
+  color: #151515;
 }
 
 nav {
@@ -19,7 +19,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #151515;
+  background-color: white;
 }
 
 nav ul {
@@ -33,16 +33,16 @@ nav a {
   text-decoration: none;
   font-size: 1rem;
   font-family: Share Tech Mono;
-  color: wheat;
+  color: #151515;
 }
 
 nav a:hover {
-  border-bottom: 1px solid wheat;
+  border-bottom: 1px solid #151515;
   transition-duration: 0.5s;
 }
 
 nav a.active {
-  border-bottom: 1px solid wheat;
+  border-bottom: 1px solid #151515;
 }
 
 aside {
@@ -50,8 +50,8 @@ aside {
   position: fixed;
   overflow-x: hidden;
   top: 40vh;
-  border: solid wheat;
-  background-color: wheat;
+  border: solid #151515;
+  background-color: #151515;
   border-radius: 5px;
   left: -5px;
 }
@@ -59,8 +59,8 @@ aside {
 a.sideicon {
   text-decoration: none;
   display: flex;
-  color: #151515;
-  background-color: wheat;
+  color: white;
+  background-color: #151515;
   cursor: pointer;
   justify-content: center;
   padding: 0.3rem;
@@ -69,8 +69,8 @@ a.sideicon {
 }
 
 a.sideicon:hover {
-  color: wheat;
-  background-color: #151515;
+  color: #151515;
+  background-color: white;
   transition-duration: 0.5s;
 }
 
@@ -85,7 +85,6 @@ header.hero {
   text-align: center;
   max-width: 80%;
   margin-left: 10%;
-
   height: auto;
   font-family: Federant;
   margin-bottom: 2%;
@@ -98,6 +97,7 @@ header.hero p {
   margin-left: 10%;
 }
 
+
 .card {
   display: block;
   width: 20%;
@@ -109,7 +109,7 @@ header.hero p {
   text-align: center;
   align-items: center;
   transition: transform 0.4s;
-  border: wheat solid;
+  border: #151515 solid;
 }
 
 .card:hover {
@@ -136,23 +136,22 @@ input[type=email],
 textarea {
   width: 100%;
   padding: 1rem;
-  border: 1px solid wheat;
-  background-color: transparent;
+  border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  color: wheat;
   font-family: Share Tech Mono;
+
 }
 
 button[type=submit],
 button[type=reset] {
-  background-color: wheat;
-  color: #151515;
+  background-color: #151515;
+  color: white;
   border-radius: 5px;
-  border: 1px #151515 solid;
+  border: 1px white solid;
   padding: 12px 20px;
   cursor: pointer;
   margin-top: 12px;
@@ -162,9 +161,9 @@ button[type=reset] {
 
 button[type=submit]:hover,
 button[type=reset]:hover {
-  background-color: #151515;
-  color: wheat;
-  border: 1px wheat solid;
+  background-color: white;
+  color: #151515;
+  border: 1px #151515 solid;
   border-radius: 5px;
   transition-duration: 0.5s;
 
@@ -178,7 +177,8 @@ button[type=reset]:hover {
   margin-top: 1rem;
   padding: 1rem;
   border-radius: 5px;
-  border: wheat solid;
+  border: #151515 solid;
+  color: #151515;
 }
 
 .container h2 {
@@ -190,16 +190,15 @@ button[type=reset]:hover {
   font-size: medium;
   font-family: Share Tech Mono;
 }
-
 .rec-img {
   height: 1rem;
-  color: wheat;
+  color:#151515;
 }
 
 footer {
   display: flex;
   height: 1rem;
-  background-color: #151515;
+  background-color: white;
   align-content: center;
   justify-content: center;
   padding-top: 1rem;
@@ -239,7 +238,7 @@ footer p {
 
   a.links {
     text-decoration: none;
-    color: wheat;
-    background-color: #151515;
+    color: #151515;
+    background-color: white;
   }
 }
