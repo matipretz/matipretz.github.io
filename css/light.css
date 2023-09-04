@@ -96,7 +96,10 @@ header.hero p {
   width: 80%;
   margin-left: 10%;
 }
-
+header.hero a{
+  color:#151515;
+  text-decoration: none;
+}
 
 .card {
   display: block;
