@@ -176,7 +176,7 @@ button[type=reset]:hover {
   width: 80%;
   margin-left: 10%;
   margin-top: 1rem;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 5px;
   border: wheat solid;
 }
@@ -243,3 +243,4 @@ footer p {
     background-color: #151515;
   }
 }
+
