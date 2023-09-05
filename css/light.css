@@ -96,8 +96,9 @@ header.hero p {
   width: 80%;
   margin-left: 10%;
 }
-header.hero a{
-  color:#151515;
+
+header.hero a {
+  color: #151515;
   text-decoration: none;
 }
 
@@ -174,7 +175,6 @@ button[type=reset]:hover {
 
 .container {
   display: block;
-  flex-wrap: wrap;
   width: 80%;
   margin-left: 10%;
   margin-top: 1rem;
@@ -188,13 +188,46 @@ button[type=reset]:hover {
   font-family: Federant;
 }
 
+.container h3 {
+  font-size: large;
+  font-family: Federant;
+}
+
+.container h4 {
+  font-size: medium;
+  font-family: Federant;
+}
+
 .container p {
   font-size: medium;
   font-family: Share Tech Mono;
 }
+
+.container a {
+  font-size: medium;
+  font-family: Share Tech Mono;
+  text-decoration: none;
+  color: #151515;
+}
+
+.container ul {
+  font-size: medium;
+  font-family: Share Tech Mono;
+  list-style: none;
+  padding: 0;
+  padding-bottom: 1rem;
+  color: #151515;
+  flex-direction: column;
+
+}
+
+.container li {
+  padding-bottom: 1rem;
+}
+
 .rec-img {
   height: 1rem;
-  color:#151515;
+  color: #151515;
 }
 
 footer {
@@ -216,6 +249,9 @@ footer p {
 @media only screen and (max-width: 600px) {
   ul {
     flex-direction: column;
+  }
+
+  .centro {
     text-align: center;
   }
 

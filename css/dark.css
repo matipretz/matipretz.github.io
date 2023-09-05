@@ -89,10 +89,12 @@ header.hero {
   font-family: Federant;
   margin-bottom: 2%;
 }
-header.hero a{
+
+header.hero a {
   color: wheat;
   text-decoration: none;
 }
+
 header.hero p {
   font-family: Share Tech Mono;
   font-size: large;
@@ -188,9 +190,39 @@ button[type=reset]:hover {
   font-family: Federant;
 }
 
+.container h3 {
+  font-size: large;
+  font-family: Federant;
+}
+
+.container h4 {
+  font-size: medium;
+  font-family: Federant;
+}
+
 .container p {
   font-size: medium;
   font-family: Share Tech Mono;
+}
+
+.container a {
+  font-size: medium;
+  font-family: Share Tech Mono;
+  text-decoration: none;
+  color: wheat;
+}
+
+.container ul {
+  font-size: medium;
+  font-family: Share Tech Mono;
+  list-style: none;
+  padding: 0;
+  padding-bottom: 1rem;
+  color: whea;
+}
+
+.container li {
+  padding-bottom: 1rem;
 }
 
 .rec-img {
@@ -217,6 +249,9 @@ footer p {
 @media only screen and (max-width: 600px) {
   ul {
     flex-direction: column;
+  }
+
+  .centro {
     text-align: center;
   }
 
@@ -245,4 +280,3 @@ footer p {
     background-color: #151515;
   }
 }
-
