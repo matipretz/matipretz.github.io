@@ -37,7 +37,7 @@ Estoy seguro de que mi formación en Derecho, junto con mis habilidades administ
 
 ### **Programación inicial con Java** en [Codo a codo 4.0](https://agenciadeaprendizaje.bue.edu.ar/codo-a-codo/)
 
-- 07 2023
+- 07 2023 · [Certificado](https://drive.google.com/file/d/1NRTS0h5E0a1epArzntPvWQ2vxd34Y-Yu)
 
 ### **Java Estándar** en [Educación IT](https://www.educacionit.com/)
 
