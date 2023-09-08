@@ -1,80 +1,84 @@
-[matipretz.ar](https://matipretz.ar/) · [Discord](https://discordapp.com/users/mattanga) · [GitHub](https://github.com/matipretz) · [Contact me!](https://matipretz.ar/contact)
+[matipretz.ar](https://matipretz.ar/) · [WhatsApp](https://tinyurl.com/acces1) · [GitHub](https://github.com/matipretz) · [¡Contáctame!](https://matipretz.ar/contact)
+
 
 # MATÍAS MARTÍN MURAD PRETZ
 
-**I'm transitioning into the software development field with a solid background in administrative roles**
+**Hola, soy Matías, un entusiasta de la tecnología a mitad de mis treintas.**
+ 
+Desde temprana edad, la tecnología fue mi fascinación constante.
 
-Hey there, I'm Matías, a tech enthusiast in my mid-30s, diving deep into programming and software development. I began by tinkering with broken computers, sparking my passion. Certified courses in computer repair and Java gave me a strong hardware foundation and coding basics. Currently in a dynamic full-stack bootcamp, I'm mastering Python, Django, HTML, CSS, and vanilla JavaScript for web apps. I love hands-on learning, solving complex issues with innovative tools, and I'm all about continuous growth. Excited for the endless possibilities in the ever-evolving software world!
+A travez de varios cursos, pude adquirir conocimientos sólidos en HTML, CSS, JavaScript, Python y Java. Cada uno de estas tecnologias no solo me representan una herramienta, sino una puerta de entrada a un universo de posibilidades creativas y funcionales. Desde el diseño de interfaces hasta la construcción de aplicaciones interactivas , exploré los diversos aspectos del desarrollo web.
 
-## MOST RECENT WORK EXPERIENCE
+Estoy convencido de que el desarrollo web es una una herramienta poderosa para transformar ideas en soluciones tangibles. Mi objetivo es crear experiencias que cautiven a los usuarios y resuelvan problemas de manera efectiva.
 
-With a solid experience in administrative roles,I've honed organizational skills, attention to detail, and effective communication. As I venture into software development, I embrace the opportunity to fuse these skills with my passion for technology. I'm actively learning and working on projects, all set to bring a fresh outlook and a strong work ethic to coding. My dedication to growth and problem-solving aligns seamlessly with the expectations of the evolving market and I'm eager to make a meaningful impact in the world of software.
+Mi búsqueda actual se centra en asegurar mi primera oportunidad para aplicar estos conocimientos en un entorno profesional. Estoy ansioso por enfrentar desafíos y contribuir al mundo del desarrollo de software con un enfoque fresco orientado al crecimiento continuo.
 
-## SKILLS
+## EXPERIENCIA LABORAL MÁS RECIENTE
+
+Actualmente soy responsable de un sector administrativo en un registro de propiedad automotor, donde pude desarrollar habilidades de organización, atención al detalle y comunicación efectiva.
+Por otro lado, tambien soy estudiante intermedio de la carrera de derecho, por lo que tengo una solida comprensión de las implicaciones legales y éticas que rodean el desarrollo de software por lo que puedo contribuir a que los productos y aplicaciones cumplan con los estándares legales y éticos, especialmente importante en áreas como la protección de datos y la privacidad del usuario.
+Estoy seguro de que mi formación en Derecho, junto con mis habilidades administrativas aportan una perspectiva valiosa que va mas alla del aspecto tecnico del desarrollo de sofware.
+
+## HABILIDADES
 
 - HTML
 - CSS
 - JS
 - Python
 - Java
-- Linux
-- GIT
+- WSL
+- GitHub
 
-## EDUCATION
+## EDUCACIÓN
 
-### **Full Stack with Python** at [Codo a codo 4.0](https://agenciadeaprendizaje.bue.edu.ar/codo-a-codo/)
+### **Full Stack con Python** en [Codo a codo 4.0](https://agenciadeaprendizaje.bue.edu.ar/codo-a-codo/)
 
-- in progress
+- en curso
 
-### **Basics of programming with java** at [Codo a codo 4.0](https://agenciadeaprendizaje.bue.edu.ar/codo-a-codo/)
+### **Programación inicial con Java** en [Codo a codo 4.0](https://agenciadeaprendizaje.bue.edu.ar/codo-a-codo/)
 
 - 07 2023
 
-### **Java Standard Programming, J2SE** at [Educación IT](https://www.educacionit.com/)
+### **Java Estándar** en [Educación IT](https://www.educacionit.com/)
 
-- 12 2017 · [Certificate](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/25229)
+- 12 2017 · [Certificado](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/25229)
 
-### **Introduction to Databases and SQL** at [Educación IT](https://www.educacionit.com/)
+### **Introducción a Bases de Datos y SQL** en [Educación IT](https://www.educacionit.com/)
 
-- 09 2017 · [Certificate](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/27282)
+- 09 2017 · [Certificado](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/27282)
 
-### **Introduction to OOP** at [Educación IT](https://www.educacionit.com/)
+### **Introduccion Al Paradigma De Objetos** en [Educación IT](https://www.educacionit.com/)
 
-- 09 2017 · [Certificate](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/25209)
+- 09 2017 · [Certificado](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/25209)
 
-### **Introduction to Java** at [Educación IT](https://www.educacionit.com/)
+### **Java Principiantes** en [Educación IT](https://www.educacionit.com/)
 
-- 08 2017 · [Certificate](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/26726)
+- 08 2017 · [Certificado](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/26726)
 
-## LANGUAGES
+## IDIOMAS
 
-Spanish and [English](http://www.efset.org/cert/myHW3s)
+### **Inglés**
 
-## Projects
+- 09 2023 · [Certificado](https://www.efset.org/cert/oiXghv)
+
+## PROYECTOS
 
 ### - [SecureKey-Manager](http://github.com/matipretz/SecureKey-Manager)
 
-_SecureKey is a management application that allows you to generate and store passwords offline. It was written in Java as part of the "Codo a Codo 4.0 - Basics of programming with java" course as an individual final project. It supports multiple users. Currently, it is abandoned._
-
+_SecureKey es una aplicación de gestión que te permite generar y almacenar contraseñas sin conexión. Fue escrito en Java como parte del curso "Codo a Codo 4.0 - Programación inicial con Java" como proyecto final individual. Soporta múltiples usuarios y encriptación de datos. Finalizado._
 
 ### - [SecureKey](http://github.com/matipretz/SecureKey)
 
-_SecureKey is a port of SecureKey-Manager written in Python for personal single-user use._
+_SecureKey es una versión de SecureKey-Manager escrita en Python para uso personal uniusuario y sin encriptación. Finalizado_
 
-### - [Personal page](http://matipretz.ar)
+### - [Página personal](http://matipretz.ar)
 
-_Personal website where I showcase my works._
+_Sitio web personal donde muestro mis trabajos._
 
 ### - [Codebox](http://matipretz.ar/codebox)
 
-_Codebox is an educational blog aimed at those who are learning web development. It is part of the 'Codo a Codo 4.0 - Fullstack with Python' course. It is a group project with a team of five people._
+_Codebox fue una propuesta para el trabajo grupal de desarrollo HTML y CSS en el marco del curso 'Codo a Codo 4.0 - Fullstack con Python'. Se trata de un blog educativo dirigido a aquellos que están aprendiendo desarrollo web. El proyecto es grupal con un equipo de cinco personas. Se optó por otra alternativa y la propuesta fue abandonada._
 
 ### - [FullStack Oeste](http://matipretz.ar/fullstackoeste)
 
-_FullStack Oeste is a professional website that offers web development services. It is part of the 'Codo a Codo 4.0 - Fullstack with Python' course. It is a group project with a team of five people._
-
-## GITHUB STATISTICS
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=matipretz&theme=dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=matipretz&theme=dark)
-
+_FullStack Oeste es una propuesta para el trabajo grupal de desarrollo HTML y CSS en el marco del curso 'Codo a Codo 4.0 - Fullstack con Python'. Es un sitio web profesional que ofrece servicios de desarrollo web. El es grupal con un equipo de cinco personas. En desarrollo._

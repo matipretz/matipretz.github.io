@@ -31,7 +31,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: x-large;
   font-family: Share Tech Mono;
   color: wheat;
 }
@@ -80,14 +80,14 @@ a.sideicon:hover {
 
 
 header.hero {
-  margin-top: 50px;
+  margin-top:15%;
+  margin-left: 10%;
+  margin-bottom: 10%;
   font-size: xxx-large;
   text-align: center;
   max-width: 80%;
-  margin-left: 10%;
   height: auto;
   font-family: Federant;
-  margin-bottom: 2%;
 }
 
 header.hero a {
@@ -96,10 +96,10 @@ header.hero a {
 }
 
 header.hero p {
-  font-family: Share Tech Mono;
-  font-size: large;
+  font-family: Federant;
+  font-size: larger;
   width: 80%;
-  margin-left: 10%;
+  margin: 10%;
 }
 
 .card {
