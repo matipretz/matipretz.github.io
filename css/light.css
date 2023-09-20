@@ -4,8 +4,8 @@
   --fuentesecundaria: Share Tech Mono;
 
   /* COLORES */
-  --primario: #151515;
-  --secundario: white;
+  --primario: #252525;
+  --secundario: wheat;
 }
 
 * {
@@ -137,10 +137,6 @@ button[type=reset]:hover {
   border-radius: 5px;
   transition-duration: 0.5s;
 
-}
-
-.rc-anchor, .rc-anchor-normal, .rc-anchor-light{
-  display: none;
 }
 
 .container {
