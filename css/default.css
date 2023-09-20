@@ -209,20 +209,6 @@ button:hover {
   color: var(--primario);
 }
 
-.container ul {
-  font-family: var(--fuentesecundaria);
-  list-style: none;
-  padding: 0;
-  padding-bottom: 1rem;
-  color: green;
-  flex-direction: column;
-
-}
-
-.container li {
-  padding-bottom: 1rem;
-}
-
 .rec-img {
   width: 1rem;
   height: 1rem;
@@ -300,9 +286,8 @@ footer p {
 }
 
 .iconcard {
-  width: 90%;
   display: grid;
-  grid-template-columns: repeat(12, minmax(100px, 1fr));
+  grid-template-columns: repeat( auto-fill, minmax(100px, 1fr) );
   gap: 3rem;
   color: var(--fondocolor);
 }
