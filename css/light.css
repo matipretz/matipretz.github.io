@@ -8,6 +8,7 @@
   --secundario: white;
 }
 
+
 * {
   box-sizing: border-box;
 }
@@ -22,9 +23,11 @@ body {
   margin: 0;
   color: var(--primario);
 }
-a{
+
+a {
   text-decoration: none;
 }
+
 nav {
   position: fixed;
   top: 0;
@@ -45,12 +48,12 @@ nav a {
 }
 
 nav a:hover {
-  border-bottom: 1px solid #151515;
+  border-bottom: 1px solid var(--primario);
   transition-duration: 0.5s;
 }
 
 nav a.active {
-  border-bottom: 1px solid #151515;
+  border-bottom: 1px solid var(--primario);
 }
 
 aside {
@@ -66,18 +69,18 @@ aside {
 
 a.sideicon {
   display: flex;
-  color: var(--secundario);
-  background-color: var(--primario);
+  color: var(--primario);
+  background-color: var(--secundario);
+
   cursor: pointer;
   justify-content: center;
   padding: 0.3rem;
 }
 
 a.sideicon:hover {
-  color: #151515;
+  color: var(--secundario);
   background-color: var(--primario);
   transition-duration: 0.5s;
-  
 }
 
 .contacts {
@@ -85,20 +88,16 @@ a.sideicon:hover {
 }
 
 .hero {
-  margin-top:5rem;
-
+  margin-top: 5rem;
   text-align: center;
   height: auto;
-  font-family: var(--fuenteprimaria);
 }
 
+.hero a,
+.hero h1,
 .hero p {
+  color: var(--primario);
   font-family: var(--fuenteprimaria);
-
-}
-
-.hero a {
-  color: #151515;
 }
 
 input[type=text],
@@ -106,22 +105,25 @@ input[type=email],
 textarea {
   width: 100%;
   padding: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid var(--primario);
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
   font-family: var(--fuentesecundaria);
-
+  background-color: var(--secundario);
 }
+
+
+
 
 button[type=submit],
 button[type=reset] {
-  background-color: #151515;
-  color: white;
+  background-color: var(--secundario);
+  color: var(--primario);
   border-radius: 5px;
-  border: 1px white solid;
+  border: 1px var(--primario) solid;
   padding: 12px 20px;
   cursor: pointer;
   margin-top: 12px;
@@ -131,9 +133,9 @@ button[type=reset] {
 
 button[type=submit]:hover,
 button[type=reset]:hover {
-  background-color: white;
-  color: #151515;
-  border: 1px #151515 solid;
+  background-color: var(--primario);
+  color: var(--secundario);
+  border: 1px var(--secundario) solid;
   border-radius: 5px;
   transition-duration: 0.5s;
 
@@ -144,7 +146,7 @@ button[type=reset]:hover {
   margin: 1rem 1rem 0 3rem;
   padding: 1rem;
   border-radius: 5px;
-  border: #151515 solid;
+  border: var(--primario) solid;
 }
 
 .container h2 {
@@ -165,7 +167,7 @@ button[type=reset]:hover {
 
 .container a {
   font-family: var(--fuentesecundaria);
-  color: #151515;
+  color: var(--primario);
 }
 
 .container ul {
@@ -173,7 +175,7 @@ button[type=reset]:hover {
   list-style: none;
   padding: 0;
   padding-bottom: 1rem;
-  color: #151515;
+  color: green;
   flex-direction: column;
 
 }
@@ -185,7 +187,7 @@ button[type=reset]:hover {
 .rec-img {
   width: 1rem;
   height: 1rem;
-  color: #151515;
+  color: var(--primario);
 }
 
 footer {
@@ -219,21 +221,34 @@ footer p {
     display: none;
   }
 
+  .aside{
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
   .contacts {
     display: flex;
-    justify-content: space-around;
-    align-content: center;
-    width: 100%;
-    padding: 1rem 0;
+    align-items: center;
+    max-width: fit-content;
+    border: solid var(--primario);
+    border-radius: 5px;
+    margin: 1rem 0 0 1rem;
+
   }
 
   a.links {
-    color: #151515;
-    background-color: white;
+
+    color: var(--primario);
+    background-color: var(--secundario);
+  }
+
+  a.links:hover {
+    color: var(--secundario);
+    background-color: var(--primario);
   }
 }
 
-.iconcard{
+.iconcard {
   width: 95%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
@@ -242,23 +257,26 @@ footer p {
 }
 
 
-hr{
+hr {
   margin: 3rem 0 0 0;
   width: 100%;
 }
 
-.iconcard > i, .iconcard > svg{
+.iconcard>i,
+.iconcard>svg {
   display: flex;
   color: var(--fondocolor);
   transition-duration: 0.4s;
 }
 
-.iconcard > i:hover, .iconcard > svg:hover{
+.iconcard>i:hover,
+.iconcard>svg:hover {
   color: var(--textoclaro);
   transform: scale(1.4);
   transition-duration: 0.4s;
 }
-svg{
+
+svg {
   fill: currentColor;
   width: 80px;
   height: 80px;
