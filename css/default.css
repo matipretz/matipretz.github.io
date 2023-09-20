@@ -14,7 +14,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 html {
@@ -48,7 +47,6 @@ nav {
   top: 0;
   width: 100%;
   backdrop-filter: blur(5px);
-
 }
 
 nav ul {
@@ -56,8 +54,6 @@ nav ul {
   justify-content: space-around;
   align-content: center;
   list-style-type: none;
-  
-  
 }
 
 nav a {
@@ -67,8 +63,6 @@ nav a {
   height: 2rem;
   align-content: center;
   transition-duration: 0.4s;
-
-
 }
 
 nav a:hover {
@@ -79,38 +73,6 @@ nav a:hover {
 nav a.active {
   border-bottom: 1px solid var(--primario);
   transition-duration: 0.4s;
-
-}
-
-aside {
-  position: fixed;
-  overflow-x: hidden;
-  top: 40vh;
-  border: solid var(--primario);
-  background-color: var(--primario);
-  border-radius: 5px;
-  left: -5px;
-}
-
-
-a.sideicon {
-  display: flex;
-  color: var(--primario);
-  background-color: var(--secundario);
-
-  cursor: pointer;
-  justify-content: center;
-  padding: 0.3rem;
-}
-
-a.sideicon:hover {
-  color: var(--secundario);
-  background-color: var(--primario);
-  transition-duration: 0.5s;
-}
-
-.contacts {
-  display: none;
 }
 
 .hero {
@@ -126,7 +88,7 @@ a.sideicon:hover {
   font-family: var(--fuenteprimaria);
 }
 
-form{
+form {
   position: static;
   display: flex;
   flex-wrap: wrap;
@@ -134,10 +96,10 @@ form{
   background-color: var(--fondoprimario);
   align-content: center;
   justify-items: center;
-  margin: 1rem 1rem 0 3rem;
+  margin: 1rem 1rem 0 1rem;
   padding: 1rem;
   border-radius: 5px;
-  border: var(--primario) solid;  
+  border: var(--primario) solid;
 }
 
 input,
@@ -154,7 +116,7 @@ textarea {
   background-color: var(--secundario);
 }
 
-button{
+button {
   display: flex;
   background-color: var(--secundario);
   color: var(--primario);
@@ -175,12 +137,11 @@ button:hover {
   border: 1px var(--secundario) solid;
   border-radius: 5px;
   transition-duration: 0.5s;
-
 }
 
 .container {
   display: block;
-  margin: 1rem 1rem 0 3rem;
+  margin: 1rem 1rem 0 1rem;
   padding: 1rem;
   border-radius: 5px;
   border: var(--primario) solid;
@@ -188,7 +149,7 @@ button:hover {
 
 .container h2 {
   font-family: var(--fuenteprimaria);
-  margin: 1rem 0 1rem 0;
+  padding: 1rem 0 1rem 0;
 }
 
 .container h3 {
@@ -209,89 +170,12 @@ button:hover {
   color: var(--primario);
 }
 
-.rec-img {
-  width: 1rem;
-  height: 1rem;
-  color: var(--primario);
-}
-
-footer {
-  position: static;
-  display: grid;
-  align-content: center;
-  width: 100%;
-  text-align: center;
-  bottom: 0;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-footer p {
-  font-family: var(--fuentesecundaria);
-
-
-}
-
-@media only screen and (max-width: 600px) {
-  ul {
-    flex-direction: column;
-  }
-
-  .centro {
-    text-align: center;
-    align-items: center;
-  }
-  li a{
-      width: auto;
-
-  }
-
-  header.hero {
-    padding-top: 1rem;
-  }
-
-  aside {
-    display: none;
-  }
-
-  .aside {
-    position: static;
-    display: flex;
-    justify-content: center;
-  }
-
-  .contacts {
-    display: flex;
-    align-items: center;
-    max-width: fit-content;
-    border: solid var(--primario);
-    border-radius: 5px;
-    margin: 1rem 0 0 1rem;
-
-  }
-
-  a.links {
-    color: var(--primario);
-    background-color: var(--secundario);
-  }
-
-  a.links:hover {
-    color: var(--secundario);
-    background-color: var(--primario);
-  }
-  form, .container{
-    margin: 1rem 1rem 0 1rem;
-
-  }
-}
-
 .iconcard {
   display: grid;
-  grid-template-columns: repeat( auto-fill, minmax(100px, 1fr) );
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   gap: 3rem;
   color: var(--fondocolor);
 }
-
 
 hr {
   margin: 3rem 0 0 0;
@@ -315,4 +199,61 @@ svg {
   fill: currentColor;
   width: 80px;
   height: 80px;
+}
+
+.rec-img {
+  height: 1rem;
+
+}
+
+footer {
+  margin: 2rem 0 2rem 0;
+  position: static;
+  display: grid;
+  align-content: center;
+  width: 100%;
+  text-align: center;
+  background-color: var(--secundario);
+}
+
+footer p,
+footer a {
+  color: var(--primario);
+  font-family: var(--fuentesecundaria);
+}
+
+.footlink {
+  margin: 2rem 0 2rem 0;
+  display: flex;
+  color: var(--fondocolor);
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.footlink:hover {
+  color: var(--secundario);
+  background-color: var(--primario);
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+  ul {
+    flex-direction: column;
+  }
+
+  .centro {
+    text-align: center;
+    align-items: center;
+  }
+
+  li a {
+    width: auto;
+
+  }
+
+  header.hero {
+    padding-top: 1rem;
+  }
 }
