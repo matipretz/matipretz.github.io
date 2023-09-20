@@ -1,4 +1,6 @@
 :root {
+  scroll-behavior: smooth;
+
   /* FUENTES */
   --fuenteprimaria: Federant;
   --fuentesecundaria: Share Tech Mono;
@@ -8,16 +10,29 @@
   --secundario: white;
 }
 
-
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+
 }
 
-:root {
+html {
   scroll-behavior: smooth;
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
 }
 
 body {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+  scrollbar-width: none;
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--secundario);
   margin: 0;
@@ -43,8 +58,14 @@ nav ul {
 }
 
 nav a {
+  display: grid;
   font-family: var(--fuenteprimaria);
   color: var(--primario);
+  height: 2rem;
+  align-content: center;
+  transition-duration: 0.4s;
+
+
 }
 
 nav a:hover {
@@ -54,6 +75,8 @@ nav a:hover {
 
 nav a.active {
   border-bottom: 1px solid var(--primario);
+  transition-duration: 0.4s;
+
 }
 
 aside {
@@ -100,8 +123,21 @@ a.sideicon:hover {
   font-family: var(--fuenteprimaria);
 }
 
-input[type=text],
-input[type=email],
+form{
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--fondoprimario);
+  align-content: center;
+  justify-items: center;
+  margin: 1rem 1rem 0 3rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: var(--primario) solid;  
+}
+
+input,
 textarea {
   width: 100%;
   padding: 1rem;
@@ -115,11 +151,8 @@ textarea {
   background-color: var(--secundario);
 }
 
-
-
-
-button[type=submit],
-button[type=reset] {
+button{
+  display: flex;
   background-color: var(--secundario);
   color: var(--primario);
   border-radius: 5px;
@@ -129,10 +162,11 @@ button[type=reset] {
   margin-top: 12px;
   margin-right: 12px;
   font-family: var(--fuentesecundaria);
+  text-align: center;
+  transition-duration: 0.4s;
 }
 
-button[type=submit]:hover,
-button[type=reset]:hover {
+button:hover {
   background-color: var(--primario);
   color: var(--secundario);
   border: 1px var(--secundario) solid;
@@ -151,6 +185,7 @@ button[type=reset]:hover {
 
 .container h2 {
   font-family: var(--fuenteprimaria);
+  margin: 1rem 0 1rem 0;
 }
 
 .container h3 {
@@ -163,6 +198,7 @@ button[type=reset]:hover {
 
 .container p {
   font-family: var(--fuentesecundaria);
+  margin: 0 0 0 1rem;
 }
 
 .container a {
@@ -197,10 +233,13 @@ footer {
   width: 100%;
   text-align: center;
   bottom: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 footer p {
   font-family: var(--fuentesecundaria);
+
 
 }
 
@@ -211,6 +250,11 @@ footer p {
 
   .centro {
     text-align: center;
+    align-items: center;
+  }
+  li a{
+      width: auto;
+
   }
 
   header.hero {
@@ -221,11 +265,12 @@ footer p {
     display: none;
   }
 
-  .aside{
+  .aside {
     position: static;
     display: flex;
     justify-content: center;
   }
+
   .contacts {
     display: flex;
     align-items: center;
@@ -237,7 +282,6 @@ footer p {
   }
 
   a.links {
-
     color: var(--primario);
     background-color: var(--secundario);
   }
@@ -246,13 +290,17 @@ footer p {
     color: var(--secundario);
     background-color: var(--primario);
   }
+  form, .container{
+    margin: 1rem 1rem 0 1rem;
+
+  }
 }
 
 .iconcard {
-  width: 95%;
+  width: 90%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-  gap: 5rem;
+  grid-template-columns: repeat(12, minmax(100px, 1fr));
+  gap: 3rem;
   color: var(--fondocolor);
 }
 
@@ -265,13 +313,12 @@ hr {
 .iconcard>i,
 .iconcard>svg {
   display: flex;
-  color: var(--fondocolor);
+  color: var(--primario);
   transition-duration: 0.4s;
 }
 
 .iconcard>i:hover,
 .iconcard>svg:hover {
-  color: var(--textoclaro);
   transform: scale(1.4);
   transition-duration: 0.4s;
 }
