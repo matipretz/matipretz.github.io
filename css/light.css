@@ -1,3 +1,13 @@
+:root {
+  /* FUENTES */
+  --fuenteprimaria: Federant;
+  --fuentesecundaria: Share Tech Mono;
+
+  /* COLORES */
+  --primario: #151515;
+  --secundario: white;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -8,18 +18,18 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
-  margin: 0px;
-  margin-bottom: 3rem;
-  color: #151515;
+  background-color: var(--secundario);
+  margin: 0;
+  color: var(--primario);
 }
-
+a{
+  text-decoration: none;
+}
 nav {
-  padding: 0.5rem;
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: white;
+  background-color: var(--secundario);
 }
 
 nav ul {
@@ -30,10 +40,8 @@ nav ul {
 }
 
 nav a {
-  text-decoration: none;
-  font-size: x-large;
-  font-family: Share Tech Mono;
-  color: #151515;
+  font-family: var(--fuenteprimaria);
+  color: var(--primario);
 }
 
 nav a:hover {
@@ -46,93 +54,51 @@ nav a.active {
 }
 
 aside {
-  width: auto;
   position: fixed;
   overflow-x: hidden;
   top: 40vh;
-  border: solid #151515;
-  background-color: #151515;
+  border: solid var(--primario);
+  background-color: var(--primario);
   border-radius: 5px;
   left: -5px;
 }
 
+
 a.sideicon {
-  text-decoration: none;
   display: flex;
-  color: white;
-  background-color: #151515;
+  color: var(--secundario);
+  background-color: var(--primario);
   cursor: pointer;
   justify-content: center;
   padding: 0.3rem;
-  width: 3rem;
-  height: 3rem;
 }
 
 a.sideicon:hover {
   color: #151515;
-  background-color: white;
+  background-color: var(--primario);
   transition-duration: 0.5s;
+  
 }
 
 .contacts {
   display: none;
 }
 
+.hero {
+  margin-top:5rem;
 
-header.hero {
-  margin-top:15%;
-  margin-left: 10%;
-  margin-bottom: 10%;
-  font-size: xxx-large;
   text-align: center;
-  max-width: 80%;
   height: auto;
-  font-family: Federant;
+  font-family: var(--fuenteprimaria);
 }
 
-header.hero p {
-  font-family: Federant;
-  font-size: larger;
-  width: 80%;
-  margin: 10%;
+.hero p {
+  font-family: var(--fuenteprimaria);
+
 }
 
-header.hero a {
+.hero a {
   color: #151515;
-  text-decoration: none;
-}
-
-.card {
-  display: block;
-  width: 20%;
-  margin: 5%;
-  float: left;
-  flex-wrap: wrap;
-  border-radius: 5px;
-  padding: 1rem;
-  text-align: center;
-  align-items: center;
-  transition: transform 0.4s;
-  border: #151515 solid;
-}
-
-.card:hover {
-  transform: scale(1.1);
-}
-
-.card img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
-.card h2 {
-  font-family: Federant;
-  margin-top: 10px;
-}
-
-.card p {
-  font-family: Share Tech Mono;
 }
 
 input[type=text],
@@ -146,7 +112,7 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  font-family: Share Tech Mono;
+  font-family: var(--fuentesecundaria);
 
 }
 
@@ -160,7 +126,7 @@ button[type=reset] {
   cursor: pointer;
   margin-top: 12px;
   margin-right: 12px;
-  font-family: Share Tech Mono;
+  font-family: var(--fuentesecundaria);
 }
 
 button[type=submit]:hover,
@@ -173,46 +139,41 @@ button[type=reset]:hover {
 
 }
 
+.rc-anchor, .rc-anchor-normal, .rc-anchor-light{
+  display: none;
+}
+
 .container {
   display: block;
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 1rem;
+  margin: 1rem 1rem 0 3rem;
   padding: 1rem;
   border-radius: 5px;
   border: #151515 solid;
 }
 
 .container h2 {
-  font-size: larger;
-  font-family: Federant;
+  font-family: var(--fuenteprimaria);
 }
 
 .container h3 {
-  font-size: large;
-  font-family: Federant;
+  font-family: var(--fuenteprimaria);
 }
 
 .container h4 {
-  font-size: medium;
-  font-family: Federant;
+  font-family: var(--fuenteprimaria);
 }
 
 .container p {
-  font-size: medium;
-  font-family: Share Tech Mono;
+  font-family: var(--fuentesecundaria);
 }
 
 .container a {
-  font-size: medium;
-  font-family: Share Tech Mono;
-  text-decoration: none;
+  font-family: var(--fuentesecundaria);
   color: #151515;
 }
 
 .container ul {
-  font-size: medium;
-  font-family: Share Tech Mono;
+  font-family: var(--fuentesecundaria);
   list-style: none;
   padding: 0;
   padding-bottom: 1rem;
@@ -226,23 +187,22 @@ button[type=reset]:hover {
 }
 
 .rec-img {
+  width: 1rem;
   height: 1rem;
   color: #151515;
 }
 
 footer {
-  display: flex;
-  height: 1rem;
-  background-color: white;
+  position: static;
+  display: grid;
   align-content: center;
-  justify-content: center;
-  padding-top: 1rem;
-  padding-left: 1rem;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
 }
 
 footer p {
-  font-size: small;
-  font-family: Share Tech Mono;
+  font-family: var(--fuentesecundaria);
 
 }
 
@@ -257,7 +217,6 @@ footer p {
 
   header.hero {
     padding-top: 1rem;
-    font-size: 2rem;
   }
 
   aside {
@@ -268,15 +227,43 @@ footer p {
     display: flex;
     justify-content: space-around;
     align-content: center;
-    display: flex;
     width: 100%;
-    height: 1rem;
     padding: 1rem 0;
   }
 
   a.links {
-    text-decoration: none;
     color: #151515;
     background-color: white;
   }
+}
+
+.iconcard{
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 5rem;
+  color: var(--fondocolor);
+}
+
+
+hr{
+  margin: 3rem 0 0 0;
+  width: 100%;
+}
+
+.iconcard > i, .iconcard > svg{
+  display: flex;
+  color: var(--fondocolor);
+  transition-duration: 0.4s;
+}
+
+.iconcard > i:hover, .iconcard > svg:hover{
+  color: var(--textoclaro);
+  transform: scale(1.4);
+  transition-duration: 0.4s;
+}
+svg{
+  fill: currentColor;
+  width: 80px;
+  height: 80px;
 }
