@@ -47,7 +47,8 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: var(--secundario);
+  backdrop-filter: blur(5px);
+
 }
 
 nav ul {
@@ -55,6 +56,8 @@ nav ul {
   justify-content: space-around;
   align-content: center;
   list-style-type: none;
+  
+  
 }
 
 nav a {
