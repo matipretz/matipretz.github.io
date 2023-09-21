@@ -173,7 +173,7 @@ button:hover {
 .iconcard {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 3rem;
+  gap: 2rem;
   color: var(--fondocolor);
 }
 
@@ -182,28 +182,17 @@ hr {
   width: 100%;
 }
 
-.iconcard>i,
-.iconcard>svg {
+.iconcard>img{
   display: flex;
   color: var(--primario);
   transition-duration: 0.4s;
-}
-
-.iconcard>i:hover,
-.iconcard>svg:hover {
-  transform: scale(1.4);
-  transition-duration: 0.4s;
-}
-
-svg {
-  fill: currentColor;
   width: 80px;
   height: 80px;
 }
 
-.rec-img {
-  height: 1rem;
-
+.iconcard>img:hover {
+  transform: scale(1.4);
+  transition-duration: 0.4s;
 }
 
 footer {
@@ -221,19 +210,27 @@ footer a {
   color: var(--primario);
   font-family: var(--fuentesecundaria);
 }
-
-.footlink {
+.footlist{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
   margin: 2rem 0 2rem 0;
+  
+
+}
+.footlink {
   display: flex;
   color: var(--fondocolor);
   transition-duration: 0.4s;
   border-radius: 5px;
-  padding: 0.5rem;
+  width: 35px;
+  height: 35px;
+
 }
 
 .footlink:hover {
   color: var(--secundario);
-  background-color: var(--primario);
   transform: scale(1.2);
   transition-duration: 0.5s;
 }
@@ -250,7 +247,6 @@ footer a {
 
   li a {
     width: auto;
-
   }
 
   header.hero {
