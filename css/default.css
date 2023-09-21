@@ -86,6 +86,11 @@ nav a.active {
 .hero p {
   color: var(--primario);
   font-family: var(--fuenteprimaria);
+  user-select: none;
+}
+.hero h1:hover{
+  cursor: pointer;
+  
 }
 
 form {
@@ -182,7 +187,7 @@ hr {
   width: 100%;
 }
 
-.iconcard>img{
+.iconcard>img {
   display: flex;
   color: var(--primario);
   transition-duration: 0.4s;
@@ -210,15 +215,17 @@ footer a {
   color: var(--primario);
   font-family: var(--fuentesecundaria);
 }
-.footlist{
+
+.footlist {
   display: flex;
   justify-content: center;
   align-content: center;
   gap: 1rem;
   margin: 2rem 0 2rem 0;
-  
+
 
 }
+
 .footlink {
   display: flex;
   color: var(--fondocolor);
