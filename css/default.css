@@ -178,7 +178,7 @@ button:hover {
 .iconcard {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 2rem;
+  gap: 1rem;
   color: var(--fondocolor);
 }
 
@@ -193,6 +193,7 @@ hr {
   transition-duration: 0.4s;
   width: 80px;
   height: 80px;
+
 }
 
 .iconcard>img:hover {
@@ -222,18 +223,14 @@ footer a {
   align-content: center;
   gap: 1rem;
   margin: 2rem 0 2rem 0;
-
-
 }
 
 .footlink {
   display: flex;
   color: var(--fondocolor);
   transition-duration: 0.4s;
-  border-radius: 5px;
   width: 35px;
   height: 35px;
-
 }
 
 .footlink:hover {

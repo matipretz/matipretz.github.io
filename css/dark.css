@@ -1,4 +1,9 @@
 :root {
   --primario: wheat;
   --secundario: #151515;
+  
 }
+.invert{
+  filter: invert();
+}
+
