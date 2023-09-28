@@ -22,23 +22,24 @@ function toggleTheme() {
     }
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    const vistas = document.querySelectorAll('.vista');
-    
-    const mostrarVista = (id) => {
-        vistas.forEach(vista => vista.style.display = 'none');
+document.addEventListener('DOMContentLoaded', function () {
+    const vistas = document.querySelectorAll('.view');
+
+    const viewShow = (id) => {
+        vistas.forEach(view => view.style.display = 'none');
         document.getElementById(id).style.display = 'block';
     };
 
-    document.getElementById('viewlink1').addEventListener('click', function() {
-        mostrarVista('vista1');
+    document.getElementById('viewlink1').addEventListener('click', function () {
+        viewShow('view1');
     });
 
-    document.getElementById('viewlink2').addEventListener('click', function() {
-        mostrarVista('vista2');
+    document.getElementById('viewlink2').addEventListener('click', function () {
+        viewShow('view2');
     });
 
-    document.getElementById('viewlink3').addEventListener('click', function() {
-        mostrarVista('vista3');
+    document.getElementById('viewlink3').addEventListener('click', function () {
+        viewShow('view3');
     });
+    viewShow('view1')
 });
