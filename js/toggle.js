@@ -1,3 +1,11 @@
+// Function to toggle between light and dark themes
+document.addEventListener("DOMContentLoaded", function () {
+    const theme = localStorage.getItem("theme");
+    if (theme === "dark") {
+        toggleTheme()
+    }
+});
+
 document.getElementById("toggler").addEventListener("click", toggleTheme)
 function toggleTheme() {
     const head = document.querySelector("head");
@@ -15,20 +23,18 @@ function toggleTheme() {
     }
 }
 
+// Function to show a specific view by ID
 document.addEventListener('DOMContentLoaded', function () {
-    const theme = localStorage.getItem("theme");
-    if (theme === "dark") {
-        toggleTheme()
-    }
-
-    const vistas = document.querySelectorAll('.view');
+    const views = document.querySelectorAll('.view');
     const viewShow = (id) => {
-        vistas.forEach(view => view.style.display = 'none');
+        views.forEach(view => view.style.display = 'none');
         document.getElementById(id).style.display = 'block';
     };
 
+    // Event listeners for view links
     document.getElementById('viewlink1').addEventListener('click', function () {
         viewShow('view1');
+
     });
 
     document.getElementById('viewlink2').addEventListener('click', function () {
@@ -37,16 +43,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.getElementById('viewlink3').addEventListener('click', function () {
         viewShow('view3');
+        onSubmit()
+        // Event listener for close button in modal
+        const closeButton = document.querySelector('.close-button');
+        const modal = document.getElementById('modal');
+        closeButton.addEventListener('click', function () {
+            modal.style.display = 'none';
+        });
     });
-    viewShow('view1')
 
+    // Show the initial view
+    viewShow('view1');
+
+    // Hide the loader
     document.getElementById('loader').style.display = 'none';
-
-
-    const closeButton = document.querySelector('.close-button');
-    const modal = document.getElementById('modal');
-    closeButton.addEventListener('click', function () {
-        modal.style.display = 'none';
-    });
-
 });
