@@ -257,3 +257,7 @@ footer a {
     padding-top: 1rem;
   }
 }
+#vista2,
+#vista3 {
+    display: none;
+}

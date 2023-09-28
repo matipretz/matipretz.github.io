@@ -12,6 +12,8 @@
     <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Share%20Tech%20Mono'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Federant">
     <script src="js/prefixfree.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="js/recaptcha.js"></script>
     <!-- Primary Meta Tags -->
     <title>matipretz.ar - Self-taught Full Stack Developer</title>
     <meta name="title" content="matipretz.ar - Self-taught Full Stack Developer" />
@@ -37,62 +39,234 @@
 <body>
     <nav>
         <ul class="centro">
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li>
+                <p id="viewlink1"><a href="#">Home</a></p>
+            </li>
+            <li>
+                <p id="viewlink2"><a href="#">About</a></p>
+            </li>
+            <li>
+                <p id="viewlink3"><a href="#">Contact</a></p>
+            </li>
         </ul>
     </nav>
+    <div id="vista1" class="vista">
+        <header class="hero">
+            <h1><a id="toggler">/matipretz.ar</a></h1>
+            <p>This is what I do:</p>
+        </header>
+        <main>
+            <article class="container">
+                <a href="https://github.com/matipretz/SecureKey-Manager" target="_blank" title="SecureKey-Manager">
+                    <h3>SecureKey-Manager</h3>
+                </a>
+                <p>SecureKey-Manager is a management application that allows you to generate and store passwords
+                    offline.
+                    It was written in Java as part of the "Codo a Codo 4.0 - Initial Java Programming" course as an
+                    individual final project. It supports multiple users and data encryption. Completed.</p>
+            </article>
 
-    <header class="hero">
-        <h1><a id="toggler">/matipretz.ar</a></h1>
-        <p>This is what I do:</p>
-    </header>
+            <article class="container">
+                <a href="https://github.com/matipretz/SecureKey" target="_blank" title="SecureKey">
+                    <h3>SecureKey</h3>
+                </a>
+                <p>SecureKey is a version of SecureKey-Manager written in Python for personal single-user use and
+                    without
+                    encryption. Completed.</p>
+            </article>
 
-    <main>
-        <article class="container">
-            <a href="https://github.com/matipretz/SecureKey-Manager" target="_blank" title="SecureKey-Manager">
-                <h3>SecureKey-Manager</h3>
-            </a>
-            <p>SecureKey-Manager is a management application that allows you to generate and store passwords offline.
-                It was written in Java as part of the "Codo a Codo 4.0 - Initial Java Programming" course as an
-                individual final project. It supports multiple users and data encryption. Completed.</p>
-        </article>
+            <article class="container">
+                <a href="https://github.com/matipretz/matipretz.github.io" target="_blank" title="/matipretz.ar">
+                    <h3>/matipretz.ar </h3>
+                </a>
+                <p>Personal website where I showcase my works(this website).</p>
+            </article>
 
-        <article class="container">
-            <a href="https://github.com/matipretz/SecureKey" target="_blank" title="SecureKey">
-                <h3>SecureKey</h3>
-            </a>
-            <p>SecureKey is a version of SecureKey-Manager written in Python for personal single-user use and without
-                encryption. Completed.</p>
-        </article>
+            <article class="container">
+                <a href="https://matipretz.ar/codebox/index.html" target="_blank" title="Codebox">
+                    <h3>Codebox</h3>
+                </a>
+                <p> Codebox was a proposal for the group project involving HTML and CSS development within the framework
+                    of
+                    the 'Codo a Codo 4.0 - Fullstack with Python' course. It is an educational blog aimed at those who
+                    are
+                    learning web development. The project is a group effort with a team of five people. Another
+                    alternative
+                    was chosen, and the proposal was abandoned.</p>
+            </article>
 
-        <article class="container">
-            <a href="https://github.com/matipretz/matipretz.github.io" target="_blank" title="/matipretz.ar">
-                <h3>/matipretz.ar </h3>
-            </a>
-            <p>Personal website where I showcase my works(this website).</p>
-        </article>
+            <article class="container">
+                <a href="https://matipretz.ar/fullstackoeste/" target="_blank" title="FullStack Oeste">
+                    <h3>FullStack Oeste </h3>
+                </a>
+                <p> FullStack Oeste is a proposal for the group project involving HTML and CSS development within the
+                    framework of the 'Codo a Codo 4.0 - Fullstack with Python' course. It is a professional website that
+                    offers web development services. The project is a group effort with a team of five people. Currently
+                    in
+                    development.</p>
+            </article>
+        </main>
+    </div>
 
-        <article class="container">
-            <a href="https://matipretz.ar/codebox/index.html" target="_blank" title="Codebox">
-                <h3>Codebox</h3>
-            </a>
-            <p> Codebox was a proposal for the group project involving HTML and CSS development within the framework of
-                the 'Codo a Codo 4.0 - Fullstack with Python' course. It is an educational blog aimed at those who are
-                learning web development. The project is a group effort with a team of five people. Another alternative
-                was chosen, and the proposal was abandoned.</p>
-        </article>
+    <div id="vista2" class="vista" style="display:none;">
+        <header class="hero">
+            <h1><a id="toggler">/matipretz.ar/about</a></h1>
+            <p>Hey there!</p>
+        </header>
 
-        <article class="container">
-            <a href="https://matipretz.ar/fullstackoeste/" target="_blank" title="FullStack Oeste">
-                <h3>FullStack Oeste </h3>
-            </a>
-            <p> FullStack Oeste is a proposal for the group project involving HTML and CSS development within the
-                framework of the 'Codo a Codo 4.0 - Fullstack with Python' course. It is a professional website that
-                offers web development services. The project is a group effort with a team of five people. Currently in
-                development.</p>
-        </article>
-    </main>
+        <main>
+            <article class="container">
+                <h2>Hello, I'm Matías, a technology enthusiast in my mid-thirties.</h2>
+                <p>Since an early age, technology has always been my constant fascination. Through various courses, I've
+                    acquired solid knowledge in HTML, CSS, JavaScript, Python, and Java.Each of these technologies
+                    represents not only a tool but also a gateway to a universe of creative and functional
+                    possibilities.
+                    From designing interfaces to building interactive applications, I've explored the diverse aspects of
+                    web
+                    development.</p>
+                <P>I am convinced that web development is a powerful tool for transforming ideas into tangible
+                    solutions. My
+                    goal is to create experiences that captivate users and effectively solve problems.
+
+                    My current pursuit is focused on securing my first opportunity to apply this knowledge in a
+                    professional
+                    environment. I am eager to face challenges and contribute to the world of software development with
+                    a
+                    fresh approach oriented towards continuous growth.
+                </P>
+            </article>
+
+            <article class="container">
+                <h2>My most recent work experience:</h2>
+                <p>Currently, I am responsible for an administrative department at a motor vehicle property registry,
+                    where
+                    I have been able to develop skills in organization, attention to detail, and effective
+                    communication.
+                </p>
+                <p>Additionally, I am also an intermediate-level student in the field of law, which provides me with a
+                    solid
+                    understanding of the legal and ethical implications surrounding software development. This enables
+                    me to
+                    contribute to ensuring that products and applications comply with legal and ethical standards,
+                    particularly
+                    crucial in areas such as data protection and user privacy.</p>
+                <p>I am confident that my background in law, coupled
+                    with my administrative skills, brings a valuable perspective that extends beyond the technical
+                    aspect of
+                    software development.</p>
+            </article>
+
+            <article class="container">
+                <h2>Online Courses:</h2>
+                <h3>Full Stack with Python</h3>
+                <p>at <a href="https://agenciadeaprendizaje.bue.edu.ar/codo-a-codo/">Codo a Codo 4.0</a><br>In progress
+                </p>
+
+                <a href="https://drive.google.com/file/d/1NRTS0h5E0a1epArzntPvWQ2vxd34Y-Yu/edit" target="_blank"
+                    title="Certificate">
+                    <h3>Basics of programming with java</h3>
+                </a>
+                <p>at <a href="https://agenciadeaprendizaje.bue.edu.ar/codo-a-codo/">Codo a Codo 4.0</a><br>07 2023</p>
+
+                <h2>Courses:</h2>
+                <a href="https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/25229"
+                    target="_blank" title="Certificate">
+                    <h3>Java Standard Programming, J2SE</h3>
+                </a>
+                <p> at <a href="https://www.educacionit.com/">Educación IT</a><br>12 2017</p>
+
+                <a href="https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/27282"
+                    target="_blank" title="Certificate">
+                    <h3>Introduction to Databases and SQL</h3>
+                </a>
+                <p> at <a href="https://www.educacionit.com/">Educación IT</a><br>09 2017</p>
+
+                <a href="https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/25209"
+                    target="_blank" title="Certificate">
+                    <h3>Introduction to OOP</h3>
+                </a>
+                <p> at <a href="https://www.educacionit.com/">Educación IT</a><br>09 2017</p>
+
+                <a href="https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/26726"
+                    target="_blank" title="Certificate">
+                    <h3>Introduction to Java</h3>
+                </a>
+                <p> at <a href="https://www.educacionit.com/">Educación IT</a><br>08 2017</p>
+            </article>
+
+            <article class="container">
+                <h2>Tools:</h2>
+                <section class="iconcard">
+                    <img src="https://cdn.simpleicons.org/visualstudiocode" title="Visual Studio Code"
+                        alt="Visual Studio Code Logo" />
+                    <img src="https://cdn.simpleicons.org/linux" title="WSL" alt="WSL Logo" />
+                    <img src="https://cdn.simpleicons.org/ubuntu" title="Ubuntu" alt="Ubuntu Logo" />
+                    <img class="invert" src="https://cdn.simpleicons.org/windowsterminal" title="Windows Terminal"
+                        alt="Windows Terminal Logo" />
+                    <img src="https://cdn.simpleicons.org/openjdk" title="OpenJDK" alt="OpenJDK Logo" />
+                    <img src="https://cdn.simpleicons.org/mysql" title="MySQL" alt="MySQL Logo" />
+                    <img src="https://cdn.simpleicons.org/python" title="Python" alt="Python Logo" />
+                    <img src="https://cdn.simpleicons.org/git" title="Git" alt="Git Logo" />
+                    <img class="invert" src="https://cdn.simpleicons.org/github" title="GitHub" alt="GitHub Logo" />
+                    <img src="https://cdn.simpleicons.org/html5" title="HTML5" alt="HTML5 Logo" />
+                    <img src="https://cdn.simpleicons.org/css3" title="CSS3" alt="CSS3 Logo" />
+                </section>
+
+                <hr>
+                <h2>In progress:</h2>
+                <section class="iconcard">
+                    <img src="https://cdn.simpleicons.org/bootstrap" title="Bootstrap" alt="Bootstrap Logo" />
+                    <img src="https://cdn.simpleicons.org/javascript" title="JavaScript" alt="JavaScript Logo" />
+                    <img class="invert" src="https://cdn.simpleicons.org/flask" title="Flask" alt="Flask Logo" />
+                    <img src="https://cdn.simpleicons.org/jinja" title="Jinja" alt="Jinja Logo" />
+                    <img src="https://cdn.simpleicons.org/phpmyadmin" title="phpMyAdmin" alt="phpMyAdmin Logo" />
+                </section>
+
+                <hr>
+                <h2>Coming soon:</h2>
+                <section class="iconcard">
+                    <img src="https://cdn.simpleicons.org/node.js" title="Node.js" alt="Node.js Logo" />
+                    <img src="https://cdn.simpleicons.org/npm" title="npm" alt="npm Logo" />
+                    <img class="invert" src="https://cdn.simpleicons.org/express" title="Express" alt="Express Logo" />
+                    <img src="https://cdn.simpleicons.org/vue.js" title="Vue.js" alt="Vue.js Logo" />
+                    <img src="https://cdn.simpleicons.org/mongodb" title="MongoDB" alt="MongoDB Logo" />
+                    <img src="https://cdn.simpleicons.org/react" title="React" alt="React Logo" />
+                    <img src="https://cdn.simpleicons.org/angular" title="Angular" alt="Angular Logo" />
+                    <img src="https://materializecss.com/res/materialize.svg" title="Materialize"
+                        alt="Materialize Logo" />
+                    <img src="https://cdn.simpleicons.org/tailwindcss" title="Tailwind CSS" alt="Tailwind CSS Logo" />
+                    <img src="https://cdn.simpleicons.org/sass" title="Sass" alt="Sass Logo" />
+                    <img src="https://cdn.simpleicons.org/less" title="Less" alt="Less Logo" />
+                    <img src="https://cdn.simpleicons.org/flutter" title="Flutter" alt="Flutter Logo" />
+                    <img src="https://cdn.simpleicons.org/heroku" title="Heroku" alt="Heroku Logo" />
+                    <img src="https://cdn.simpleicons.org/powershell" title="PowerShell" alt="PowerShell Logo" />
+                    <img src="https://cdn.simpleicons.org/gnubash" title="Bash" alt="Bash Logo" />
+                </section>
+            </article>
+
+
+        </main>
+    </div>
+
+    <div id="vista3" class="vista" style="display:none;">
+        <header class="hero">
+            <h1><a id="toggler">/matipretz.ar/contact</a></h1>
+            <p>Send me a message:</p>
+        </header>
+
+        <main>
+            <form method="post" action="https://forms.un-static.com/forms/7b2f2a4d1f0f8dbd8a0edde72d19220aedfd0456">
+                <H2>Contact form:</H2>
+                <input type="text" name="name" id="name" placeholder="Name" autocomplete="off" required>
+                <input type="email" name="email" id="email" placeholder="Email" autocomplete="off" required>
+                <textarea name="message" id="message" rows="10" placeholder="Message" autocomplete="off"
+                    required></textarea>
+                <button type="reset">Clear</button>
+                <button type="submit" class="g-recaptcha" data-sitekey="6Lf-ATMoAAAAAOCUXtiy7Kz5vN9LylYtowz43aIm
+            " data-callback='onSubmit' data-action='submit'>Submit</button>
+            </form>
+        </main>
+    </div>
 
     <footer>
         <div class="footlist">
