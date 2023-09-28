@@ -113,6 +113,7 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
   font-family: var(--fuentesecundaria);
+  color: var(--primario);
   background-color: var(--secundario);
 }
 
