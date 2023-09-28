@@ -88,7 +88,7 @@ nav a.active {
   font-family: var(--fuenteprimaria);
   user-select: none;
 }
-.hero h1:hover{
+.hero a:hover{
   cursor: pointer;
   
 }
@@ -256,4 +256,8 @@ footer a {
   header.hero {
     padding-top: 1rem;
   }
+}
+#vista2,
+#vista3 {
+    display: none;
 }
