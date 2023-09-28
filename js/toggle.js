@@ -5,8 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
         toggleTheme()
     }
 });
+document.querySelectorAll('.toggler').forEach(function (element) {
+    element.addEventListener('click', toggleTheme);
+});
 
-document.getElementById("toggler").addEventListener("click", toggleTheme)
 function toggleTheme() {
     const head = document.querySelector("head");
     const toggler = document.createElement("link");
@@ -34,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // Event listeners for view links
     document.getElementById('viewlink1').addEventListener('click', function () {
         viewShow('view1');
-
     });
 
     document.getElementById('viewlink2').addEventListener('click', function () {
@@ -43,7 +44,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.getElementById('viewlink3').addEventListener('click', function () {
         viewShow('view3');
-        onSubmit()
         // Event listener for close button in modal
         const closeButton = document.querySelector('.close-button');
         const modal = document.getElementById('modal');
