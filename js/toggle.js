@@ -1,9 +1,43 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener('DOMContentLoaded', function () {
     const theme = localStorage.getItem("theme");
     if (theme === "dark") {
         toggleTheme()
     }
+
+    const vistas = document.querySelectorAll('.view');
+    const viewShow = (id) => {
+        vistas.forEach(view => view.style.display = 'none');
+        document.getElementById(id).style.display = 'block';
+    };
+
+    document.getElementById('viewlink1').addEventListener('click', function () {
+        viewShow('view1');
+    });
+
+    document.getElementById('viewlink2').addEventListener('click', function () {
+        viewShow('view2');
+    });
+
+    document.getElementById('viewlink3').addEventListener('click', function () {
+        viewShow('view3');
+    });
+
+    viewShow('view1')
+
+    document.getElementById('loader').style.display = 'none';
+
+    const closeButton = document.querySelector('.close-button');
+    const modal = document.getElementById('modal');
+    closeButton.addEventListener('click', function () {
+        modal.style.display = 'none';
+    });
 });
+
+
+function onSubmit(token) {
+    document.getElementById("form").submit();
+    document.getElementById('modal').style.display = 'flex';
+}
 
 document.getElementById("toggler").addEventListener("click", toggleTheme)
 function toggleTheme() {
@@ -21,25 +55,3 @@ function toggleTheme() {
         localStorage.setItem("theme", "dark");
     }
 }
-
-document.addEventListener('DOMContentLoaded', function () {
-    const vistas = document.querySelectorAll('.view');
-
-    const viewShow = (id) => {
-        vistas.forEach(view => view.style.display = 'none');
-        document.getElementById(id).style.display = 'block';
-    };
-
-    document.getElementById('viewlink1').addEventListener('click', function () {
-        viewShow('view1');
-    });
-
-    document.getElementById('viewlink2').addEventListener('click', function () {
-        viewShow('view2');
-    });
-
-    document.getElementById('viewlink3').addEventListener('click', function () {
-        viewShow('view3');
-    });
-    viewShow('view1')
-});
