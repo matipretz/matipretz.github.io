@@ -88,7 +88,7 @@ nav a.active {
   font-family: var(--fuenteprimaria);
   user-select: none;
 }
-.hero h1:hover{
+.hero a:hover{
   cursor: pointer;
   
 }
