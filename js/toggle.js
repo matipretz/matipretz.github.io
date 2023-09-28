@@ -33,12 +33,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-
-function onSubmit(token) {
-    document.getElementById("form").submit();
-    document.getElementById('modal').style.display = 'flex';
-}
-
 document.getElementById("toggler").addEventListener("click", toggleTheme)
 function toggleTheme() {
     const head = document.querySelector("head");
