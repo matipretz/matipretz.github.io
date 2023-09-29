@@ -58,3 +58,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // Hide the loader
     document.getElementById('loader').style.display = 'none';
 });
+
+new TypeIt(".toggler", {
+    strings: "/matipretz.ar",
+    speed: 50,
+    waitUntilVisible: true,
+}).go();

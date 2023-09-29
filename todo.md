@@ -1,4 +1,4 @@
-1. ALIGN CENTER TOOLS ICONS
+1. IMPLEMENTAR PICO.CSS
 
 2. DESHACESE DE UNSTATIC CAMBIANDO DE ACTION EN EL FORM
 
@@ -8,7 +8,3 @@
 
 5. DAR ESTILO AL MODAL
  "An unauthorized submission attempt has been detected. Please try again."
-
-
-
-
