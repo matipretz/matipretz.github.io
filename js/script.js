@@ -17,13 +17,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.getElementById('viewlink3').addEventListener('click', function () {
         viewShow('view3');
-        // Event listener for close button in modal
-        const closeButton = document.querySelector('.close-button');
-        const modal = document.getElementById('modal');
-        closeButton.addEventListener('click', function () {
-            modal.style.display = 'none';
-        });
-    });
+     });
+    document.getElementById('viewlink4').addEventListener('click', function () {
+        viewShow('view4');
+     });
+    document.getElementById('viewlink5').addEventListener('click', function () {
+        viewShow('view5');
+     });
 
     // Show the initial view
     viewShow('view1');
