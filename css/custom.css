@@ -54,12 +54,22 @@ form.grid {
   grid-row-gap: 0;
 }
 
-/* Aside nav */
-aside img {
-  margin-bottom: 0.25rem;
+.footlist {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+  margin: 2rem 0 2rem 0;
 }
 
-aside p {
-  margin-bottom: var(--spacing-company);
-  line-height: 1.25;
+.footlink {
+  display: flex;
+  transition-duration: 0.4s;
+  width: 35px;
+  height: 35px;
+}
+
+.footlink:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
 }
