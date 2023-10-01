@@ -1,10 +1,5 @@
-1. IMPLEMENTAR PICO.CSS
+Third-Party Tools
+Relevant third party tools and resources we depend on.
 
-2. DESHACESE DE UNSTATIC CAMBIANDO DE ACTION EN EL FORM
-
-3. APLICAR UN MODAL PARA EL SUBMIT
-
-4. CHEQUEAR CON HONEYPOT
-
-5. DAR ESTILO AL MODAL
- "An unauthorized submission attempt has been detected. Please try again."
+Foto de <a href="https://unsplash.com/es/@carminu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Carmine De Fazio</a> en <a href="https://unsplash.com/es/fotos/3ytjETpQMNY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
