@@ -1,4 +1,4 @@
-[matipretz.ar](https://matipretz.ar/) · [WhatsApp](https://tinyurl.com/acces1) · [GitHub](https://github.com/matipretz) · [¡Contáctame!](https://matipretz.ar/contact)
+[matipretz.ar](https://matipretz.ar/) · [WhatsApp](https://tinyurl.com/acces1) · [LinkedIn](https://www.linkedin.com/in/matiasmurad/) · [Contactame!](mailto:contact.me@altmails.com?subject=[GitHub])
 
 
 # MATÍAS MARTÍN MURAD PRETZ
@@ -21,13 +21,45 @@ Estoy seguro de que mi formación en Derecho, junto con mis habilidades administ
 
 ## HABILIDADES
 
-- HTML
-- CSS
-- JS
-- Python
-- Java
-- WSL
-- GitHub
+### APRENDIDAS
+<div align="center">
+    <img height="32" width="32" src="https://cdn.simpleicons.org/visualstudiocode" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/linux" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/ubuntu" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/windowsterminal" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/openjdk" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/mysql" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/python" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/git" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/github/_/eee" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/html5" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/css3" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/bootstrap" />&nbsp; &nbsp; &nbsp;
+</div>
+
+
+### EN PROGRESO
+
+<div align="center">
+    <img height="32" width="32" src="https://cdn.simpleicons.org/javascript" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/flask/_/eee" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/jinja" />&nbsp; &nbsp; &nbsp;
+</div>
+
+### PROXIMAMENTE
+
+<div align="center">
+    <img height="32" width="32" src="https://cdn.simpleicons.org/node.js" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/npm" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/express/_/eee" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/vue.js" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/mongodb" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/react" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/angular" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/sass" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/flutter" />&nbsp; &nbsp; &nbsp;
+</div>
+
 
 ## EDUCACIÓN
 
