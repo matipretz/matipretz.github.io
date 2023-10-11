@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>matipretz.ar</title>
-    <meta charset="utf-8">
+    <!-- Meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>matipretz.ar/404 - Full stack developer.</title>
+    <meta name="google-site-verification" content="WteRqlnd3PGX-T-P7VIdhJfvw10UR5vmxHhAqwT_R-I" />
+    <!-- Pico.css -->
+    <link rel="stylesheet" href="css/styles.pure.css">
+    <!-- Favicon links -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Share%20Tech%20Mono'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Federant">
-    <script src="js/prefixfree.js"></script>
 </head>
 
 <body>
-
-
-    <header class="hero">
-        <h1><a id="toggler">/matipretz.ar/404</a></h1>
-        <p>Oops! The page you are looking for could not be found.</p>
-    </header>
-
-    <main>
-        <article class="container">
-
-            <p>It's possible that the page has been deleted or you entered an incorrect address. Please, verify the URL
-                and try again.</p>
+    <!-- Hero -->
+    <div class="hero" data-theme="dark">
+        <nav class="container-fluid">
+            <ul>
+                <li>
+                    <a href="./" class="contrast" onclick="event.preventDefault()"><strong>/m</strong></a>
+                </li>
+            </ul>
+            <!-- Theme -->
+            <ul>
+                <li>
+                    <details role="list" dir="rtl">
+                        <summary aria-haspopup="listbox" role="link" class="contrast">Theme</summary>
+                        <ul role="listbox">
+                            <li><a href="#" data-theme-switcher="auto">Auto</a></li>
+                            <li><a href="#" data-theme-switcher="light">Light</a></li>
+                            <li><a href="#" data-theme-switcher="dark">Dark</a></li>
+                        </ul>
+                    </details>
+                </li>
+            </ul>
+        </nav>
+        <header class="container">
+            <hgroup>
+                <h1>/matipretz.ar/404</h1>
+                <h2>Oops! The page you are looking for could not be found.</h2>
+                <p>It's possible that the page has been deleted or you entered an incorrect address. Please, verify the
+                    URL
+                    and try again.</p>
                 <br>
-            <p><a href="index.html">Return to the main page.</a></p>
-
-        </article>
-    </main>
-
-
-    <script src="js/toggle.js"></script>
+                <p><a href="index.html">Return to the main page.</a></p>
+            </hgroup>
+        </header>
+    </div>
+    <script src="js/minimal-theme-switcher.js"></script>
 </body>
-
 </html>
