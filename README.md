@@ -82,22 +82,22 @@ _Jornada parcial · abr. 2019 - jul. 2019 · 4 meses_
 
 ## PROYECTOS
 
-### - [SecureKey-Manager](http://github.com/matipretz/SecureKey-Manager)
+### [SecureKey-Manager](http://github.com/matipretz/SecureKey-Manager)
 
 _SecureKey es una aplicación de gestión que te permite generar y almacenar contraseñas sin conexión. Fue escrito en Java como parte del curso "Codo a Codo 4.0 - Programación inicial con Java" como proyecto final individual. Soporta múltiples usuarios y encriptación de datos. Finalizado._
 
-### - [SecureKey](http://github.com/matipretz/SecureKey)
+### [SecureKey](http://github.com/matipretz/SecureKey)
 
 _SecureKey es una versión de SecureKey-Manager escrita en Python para uso personal uniusuario y sin encriptación. Finalizado_
 
-### - [Página personal](http://matipretz.ar)
+### [Página personal](http://matipretz.ar)
 
 _Sitio web personal donde muestro mis trabajos._
 
-### - [Codebox](http://matipretz.ar/codebox)
+### [Codebox](http://matipretz.ar/codebox)
 
 _Codebox fue una propuesta para el trabajo grupal de desarrollo HTML y CSS en el marco del curso 'Codo a Codo 4.0 - Fullstack con Python'. Se trata de un blog educativo dirigido a aquellos que están aprendiendo desarrollo web. El proyecto es grupal con un equipo de cinco personas. Se optó por otra alternativa y la propuesta fue abandonada._
 
-### - [FullStack Oeste](http://matipretz.ar/fullstackoeste)
+### [FullStack Oeste](http://matipretz.ar/fullstackoeste)
 
 _FullStack Oeste es una propuesta para el trabajo grupal de desarrollo HTML y CSS en el marco del curso 'Codo a Codo 4.0 - Fullstack con Python'. Es un sitio web profesional que ofrece servicios de desarrollo web. El es grupal con un equipo de cinco personas. En desarrollo._
