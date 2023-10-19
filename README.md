@@ -72,7 +72,7 @@ _Jornada parcial · abr. 2019 - jul. 2019 · 4 meses_
 
 <div align="center">
     <img height="32" width="32" src="https://cdn.simpleicons.org/vue.js" />&nbsp; &nbsp; &nbsp;
-    <img height="32" width="32" src="https://cdn.simpleicons.org/vite.js" />&nbsp; &nbsp; &nbsp;    
+    <img height="32" width="32" src="https://cdn.simpleicons.org/vite" />&nbsp; &nbsp; &nbsp;    
     <img height="32" width="32" src="https://cdn.simpleicons.org/mongodb" />&nbsp; &nbsp; &nbsp;    
     <img height="32" width="32" src="https://cdn.simpleicons.org/flask/_/eee" />&nbsp; &nbsp; &nbsp;
     <img height="32" width="32" src="https://cdn.simpleicons.org/jinja" />&nbsp; &nbsp; &nbsp;
