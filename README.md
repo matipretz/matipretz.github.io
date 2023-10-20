@@ -1,4 +1,4 @@
-_[matipretz.ar](https://matipretz.ar/) · [WhatsApp](https://tinyurl.com/acces1) · [LinkedIn](https://www.linkedin.com/in/matipretz/) · [GitHub](https://github.com/matipretz) · [Mail](mailto:contact.me@altmails.com?subject=[GitHub])_  
+_[matipretz.ar](https://matipretz.ar/) · [WhatsApp](https://tinyurl.com/acces1) · [LinkedIn](https://www.linkedin.com/in/matipretz/) · [GitHub](https://github.com/matipretz) · [Mail](mailto:mati.pretz+dev@googlemail.com?subject=[GitHub])_  
 # MATÍAS MARTÍN MURAD PRETZ  
 **Hola, soy Matías, un entusiasta de la tecnología a mitad de mis treintas.**
  
