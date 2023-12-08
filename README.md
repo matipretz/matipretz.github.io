@@ -54,50 +54,36 @@ _Jornada parcial · abr. 2019 - jul. 2019 · 4 meses_
     <img height="32" width="32" src="https://cdn.simpleicons.org/linux" />&nbsp; &nbsp; &nbsp;
     <img height="32" width="32" src="https://cdn.simpleicons.org/ubuntu" />&nbsp; &nbsp; &nbsp;
     <img height="32" width="32" src="https://cdn.simpleicons.org/windowsterminal" />&nbsp; &nbsp; &nbsp;
-    <img height="32" width="32" src="https://cdn.simpleicons.org/openjdk" />&nbsp; &nbsp; &nbsp;
-    <img height="32" width="32" src="https://cdn.simpleicons.org/mysql" />&nbsp; &nbsp; &nbsp;
-    <img height="32" width="32" src="https://cdn.simpleicons.org/python" />&nbsp; &nbsp; &nbsp;
-    <img height="32" width="32" src="https://cdn.simpleicons.org/git" />&nbsp; &nbsp; &nbsp;
-    <img height="32" width="32" src="https://cdn.simpleicons.org/github/_/eee" />&nbsp; &nbsp; &nbsp;
-    <img height="32" width="32" src="https://cdn.simpleicons.org/markdown/_/eee" />&nbsp; &nbsp; &nbsp;
     <img height="32" width="32" src="https://cdn.simpleicons.org/html5" />&nbsp; &nbsp; &nbsp;
     <img height="32" width="32" src="https://cdn.simpleicons.org/css3" />&nbsp; &nbsp; &nbsp;
-    <img height="32" width="32" src="https://cdn.simpleicons.org/bootstrap" />&nbsp; &nbsp; &nbsp;    
     <img height="32" width="32" src="https://cdn.simpleicons.org/javascript" />&nbsp; &nbsp; &nbsp;
-    <img height="32" width="32" src="https://cdn.simpleicons.org/node.js" />&nbsp; &nbsp; &nbsp;
-    <img height="32" width="32" src="https://cdn.simpleicons.org/npm" />&nbsp; &nbsp; &nbsp;
-</div>
-
-### EN PROGRESO
-
-<div align="center">
-    <img height="32" width="32" src="https://cdn.simpleicons.org/vue.js" />&nbsp; &nbsp; &nbsp;
-    <img height="32" width="32" src="https://cdn.simpleicons.org/vite" />&nbsp; &nbsp; &nbsp;    
-    <img height="32" width="32" src="https://cdn.simpleicons.org/mongodb" />&nbsp; &nbsp; &nbsp;    
+    <img height="32" width="32" src="https://cdn.simpleicons.org/bootstrap" />&nbsp; &nbsp; &nbsp;    
+    <img height="32" width="32" src="https://cdn.simpleicons.org/markdown/_/eee" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/git" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/github/_/eee" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/mysql" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/openjdk" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/python" />&nbsp; &nbsp; &nbsp;
     <img height="32" width="32" src="https://cdn.simpleicons.org/flask/_/eee" />&nbsp; &nbsp; &nbsp;
     <img height="32" width="32" src="https://cdn.simpleicons.org/jinja" />&nbsp; &nbsp; &nbsp;
-    <img height="32" width="32" src="https://cdn.simpleicons.org/express/_/eee" />&nbsp; &nbsp; &nbsp;
-    <img height="32" width="32" src="https://cdn.simpleicons.org/react" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/sqlalchemy" />&nbsp; &nbsp; &nbsp;
+    <img height="32" width="32" src="https://cdn.simpleicons.org/sqlite" />&nbsp; &nbsp; &nbsp;
 </div>
+
 
 ## PROYECTOS
 
-### [SecureKey-Manager](http://github.com/matipretz/SecureKey-Manager)
+- [PySword - Python Password Manager](https://matipretz.ar/Py_Sword/) (Flask)
+    Web app de gestión de contraseñas escrita en Python usando Flask. Soporta múltiples usuarios y encriptación de datos.
 
-_SecureKey es una aplicación de gestión que te permite generar y almacenar contraseñas sin conexión. Fue escrito en Java como parte del curso "Codo a Codo 4.0 - Programación inicial con Java" como proyecto final individual. Soporta múltiples usuarios y encriptación de datos. Finalizado._
+- [SecureKey-Manager](http://github.com/matipretz/SecureKey-Manager) (Java)
+    SecureKey es una aplicación de gestión que te permite generar y almacenar contraseñas sin conexión. Fue escrito en Java como parte del curso "Codo a Codo 4.0 - Programación inicial con Java" como proyecto final individual. Soporta múltiples usuarios y encriptación de datos. Finalizado.
 
-### [SecureKey](http://github.com/matipretz/SecureKey)
+- [SecureKey](http://github.com/matipretz/SecureKey) (Python)
+    SecureKey es una versión de SecureKey-Manager escrita en Python para uso personal uniusuario y sin encriptación. Finalizado
 
-_SecureKey es una versión de SecureKey-Manager escrita en Python para uso personal uniusuario y sin encriptación. Finalizado_
+- [/matipretz.ar](http://matipretz.ar) (HTML, CSS, JS)
+    Sitio web personal donde muestro mis trabajos.
 
-### [Página personal](http://matipretz.ar)
-
-_Sitio web personal donde muestro mis trabajos._
-
-### [Codebox](http://matipretz.ar/codebox)
-
-_Codebox fue una propuesta para el trabajo grupal de desarrollo HTML y CSS en el marco del curso 'Codo a Codo 4.0 - Fullstack con Python'. Se trata de un blog educativo dirigido a aquellos que están aprendiendo desarrollo web. El proyecto es grupal con un equipo de cinco personas. Se optó por otra alternativa y la propuesta fue abandonada._
-
-### [FullStack Oeste](http://matipretz.ar/fullstackoeste)
-
-_FullStack Oeste es una propuesta para el trabajo grupal de desarrollo HTML y CSS en el marco del curso 'Codo a Codo 4.0 - Fullstack con Python'. Es un sitio web profesional que ofrece servicios de desarrollo web. El es grupal con un equipo de cinco personas. En desarrollo._
+- [FullStack Oeste](http://matipretz.ar/fullstackoeste) (HTML, CSS, JS)
+    FullStack Oeste es una propuesta para el trabajo grupal de desarrollo HTML y CSS en el marco del curso 'Codo a Codo 4.0 - Fullstack con Python'. Es un sitio web profesional que ofrece servicios de desarrollo web. El es grupal con un equipo de cinco personas. En desarrollo.
