@@ -1,71 +1,69 @@
-_[matipretz.ar](https://matipretz.ar/) · [WhatsApp](https://tinyurl.com/acces1) · [LinkedIn](https://www.linkedin.com/in/matipretz/) · [GitHub](https://github.com/matipretz) · [Mail](mailto:mati.pretz+dev@googlemail.com?subject=[GitHub])_  
 # MATÍAS MARTÍN MURAD PRETZ  
-**Hola, soy Matías, un entusiasta de la tecnología a mitad de mis treintas.**
- 
 
-Desarrollo Web: Conocimientos en HTML, CSS, JavaScript, Python y Java, busco aplicar mis habilidades para transformar ideas en soluciones tangibles.
+_[matipretz.ar](https://matipretz.ar/) · [WhatsApp](https://tinyurl.com/acces1) · [LinkedIn](https://www.linkedin.com/in/matipretz/) · [GitHub](https://github.com/matipretz) · [e-Mail](mailto:mati.pretz+dev@googlemail.com?subject=[CV])_  
 
-Habilidades Complementarias: Como empleado administrativo en un registro de propiedad automotor, pude adquirir habilidades en organización, atención al detalle y comunicación efectiva.
 
-Formación en Derecho: Como estudiante intermedio de Derecho, poseo una comprensión de las implicaciones legales y éticas del desarrollo de software, especialmente en protección de datos y privacidad del usuario que añade un valor único a mi enfoque técnico.
+Soy un entusiasta de la tecnología en plena búsqueda de conocimiento y desarrollo profesional. Trabajo con HTML5, CSS3, JavaScript, Bootstrap, Java, Python, SQL, GIT, MarkDown, Flask, Jinja, y XAMPP. ¡Y quiero seguir aprendiendo más!
+
+## EXPERIENCIA LABORAL
+
+#### Registro Seccional de la Propiedad del Automotor · 4 años 9 meses 
+
+- **Analista de Rentas (Responsable de sector)**
+  Jornada completa · mar. 2021 - actualidad · 2 años 10 meses
+
+- **Mesa de entradas**
+  Jornada parcial · ago. 2019 - mar. 2021 · 1 año 8 meses
+
+- **Asistente de rentas**
+  Jornada parcial · abr. 2019 - jul. 2019 · 4 meses
+
+## FORMACIÓN
+
+#### IT:
+Actualmente preinscrito para la [Tecnicatura Superior en Desarrollo de Software](https://agenciadeaprendizaje.bue.edu.ar/curso/tecnicatura-superior-en-desarrollo-de-software/) en el primer cuatrimestre de 2024.
+
+#### Desarrollo Web:
+Con conocimientos en HTML, CSS, JavaScript, SQL, Python, y Java, busco aplicar mis habilidades para transformar ideas en soluciones tangibles.
+
+#### Derecho:
+Estudiante intermedio de Derecho en la Universidad Nacional de La Matanza, aporto una comprensión única de las implicaciones legales y éticas del desarrollo de software, especialmente en protección de datos y privacidad del usuario.
+
+#### Habilidades Complementarias:
+Como empleado administrativo, he desarrollado habilidades en organización, atención al detalle y comunicación efectiva.
+
 
 ## CERTIFICADOS
 
 ### [@Codo a codo 4.0](https://agenciadeaprendizaje.bue.edu.ar/codo-a-codo/)
 
-#### [**Full Stack con Python** (en curso)]()
-#### [**Programación inicial con Java**](https://drive.google.com/file/d/1NRTS0h5E0a1epArzntPvWQ2vxd34Y-Yu)
+- [Full Stack con Python (en curso)]()
+- [Programación inicial con Java](https://drive.google.com/file/d/1NRTS0h5E0a1epArzntPvWQ2vxd34Y-Yu)
 
 ### [@Educación IT](https://www.educacionit.com/)
 
-####  [**Java Estándar**](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/25229)
-
-#### [**Introducción a Bases de Datos y SQL**](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/27282)
-
-#### [**Introducción Al Paradigma De Objetos**](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/25209)
-
-#### [**Java Principiantes**](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/26726)
+- [Java Estándar](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/25229)
+- [Introducción a Bases de Datos y SQL](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/27282)
+- [Introducción Al Paradigma De Objetos](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/25209)
+- [Java Principiantes](https://www.educacionit.com/perfil/matias-martin-murad-pretz-225217/certificado/26726)
 
 ### [@EF SET](https://www.efset.org/)
 
-#### [**English C2 Proficient**](https://www.efset.org/cert/oiXghv)
+- [English C2 Proficient](https://www.efset.org/cert/oiXghv)
 
-## EXPERIENCIA LABORAL MÁS RECIENTE
+## PROYECTOS
 
-#### Registro Seccional de la Propiedad del Automotor · 4 años 7 meses  
-- Administrativo de Rentas  
-_Jornada completa · mar. 2021 - actualidad · 2 años 8 meses_
+- [PySword - Python Password Manager](https://matipretz.ar/Py_Sword/) (Flask)
+    Web app de gestión de contraseñas escrita en Python usando Flask. Soporta múltiples usuarios y encriptación de datos.
 
-- Mesa de entradas  
-_Jornada parcial · ago. 2019 - mar. 2021 · 1 año 8 meses_
+- [SecureKey-Manager](http://github.com/matipretz/SecureKey-Manager) (Java)
+    Aplicación de gestión de contraseñas escrita en Java. Soporta múltiples usuarios y encriptación de datos.
 
-- Asistente de rentas  
-_Jornada parcial · abr. 2019 - jul. 2019 · 4 meses_
+- [SecureKey](http://github.com/matipretz/SecureKey) (Python)
+    Versión en Python de SecureKey-Manager para uso personal uni usuario y sin encriptación.
 
+- [/matipretz.ar](http://matipretz.ar) (HTML, CSS, JS)
+    Sitio web personal donde muestro los proyectos en los que participé.
 
-## TECNOLOGÍAS
-VS Code · WSL · Ubuntu · PowerShell · Java · MySQL · Python · GIT · GitHub · MarkDown · HTML5 · CSS3 · BootStrap · JavaScript · Node.js · npm.js
-
-#### EN PROGRESO
-Vue.js · Vite · MongoDB · Flask · Jinja · Express · React
-
-### PROYECTOS
-
-#### [SecureKey-Manager](http://github.com/matipretz/SecureKey-Manager) (Java)
-
-_SecureKey es una aplicación de gestión que te permite generar y almacenar contraseñas sin conexión. Fue escrito en Java como parte del curso "Codo a Codo 4.0 - Programación inicial con Java" como proyecto final individual. Soporta múltiples usuarios y encriptación de datos. Finalizado._
-
-#### [SecureKey](http://github.com/matipretz/SecureKey) (Python)
-
-_SecureKey es una versión de SecureKey-Manager escrita en Python para uso personal uniusuario y sin encriptación. Finalizado_
-
-#### [/matipretz.ar](http://matipretz.ar)
-_Sitio web personal donde muestro mis trabajos._
-
-#### [Codebox](http://matipretz.ar/codebox)
-
-_Codebox fue una propuesta para el trabajo grupal de desarrollo HTML y CSS en el marco del curso 'Codo a Codo 4.0 - Fullstack con Python'. Se trata de un blog educativo dirigido a aquellos que están aprendiendo desarrollo web. El proyecto es grupal con un equipo de cinco personas. Se optó por otra alternativa y la propuesta fue abandonada._
-
-#### [FullStack Oeste](http://matipretz.ar/fullstackoeste)
-
-_FullStack Oeste es una propuesta para el trabajo grupal de desarrollo HTML y CSS en el marco del curso 'Codo a Codo 4.0 - Fullstack con Python'. Es un sitio web profesional que ofrece servicios de desarrollo web. El proyecto es grupal con un equipo de cinco personas. En desarrollo._
+- [FullStack Oeste](http://matipretz.ar/fullstackoeste) (HTML, CSS, JS)
+    Propuesta para el trabajo grupal de desarrollo HTML, CSS y JS en el marco del curso "Codo a Codo 4.0 - Fullstack con Python". Sitio web profesional que ofrece servicios de desarrollo web.
