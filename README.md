@@ -37,9 +37,9 @@ Actualmente soy responsable de un sector administrativo en un registro de propie
 Por otro lado, tambien soy estudiante intermedio de la carrera de derecho, por lo que tengo una solida comprensión de las implicaciones legales y éticas que rodean el desarrollo de software por lo que puedo contribuir a que los productos y aplicaciones cumplan con los estándares legales y éticos, especialmente importante en áreas como la protección de datos y la privacidad del usuario.
 Estoy seguro de que mi formación en Derecho, junto con mis habilidades administrativas aportan una perspectiva valiosa que va mas alla del aspecto tecnico del desarrollo de sofware.
 
-#### Registro Seccional de la Propiedad del Automotor · 4 años 7 meses  
+#### Registro Seccional de la Propiedad del Automotor · 5 años  
 - Administrativo de Rentas  
-_Jornada completa · mar. 2021 - actualidad · 2 años 8 meses_
+_Jornada completa · mar. 2021 - actualidad · 3 años 1 mes_
 
 - Mesa de entradas  
 _Jornada parcial · ago. 2019 - mar. 2021 · 1 año 8 meses_
